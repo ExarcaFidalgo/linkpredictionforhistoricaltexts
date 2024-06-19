@@ -1,4 +1,4 @@
-SELECT ?item
+SELECT (COUNT (?item) as ?count)
 WHERE
 {
   ?item p:P31 ?ps .
