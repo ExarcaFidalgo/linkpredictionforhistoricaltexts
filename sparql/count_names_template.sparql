@@ -1,4 +1,4 @@
-SELECT (COUNT(?item) as ?count)
+SELECT (COUNT(DISTINCT ?item) as ?count)
 WHERE
 {
   ?item wdt:P31/wdt:P279* wd:Q202444.
