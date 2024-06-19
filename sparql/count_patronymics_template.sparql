@@ -1,6 +1,0 @@
-SELECT (COUNT(?item) as ?count)
-WHERE
-{
-  ?item wdt:P31 wd:Q11455398.
-  ?item wdt:P407 wd:{{language}}
-}

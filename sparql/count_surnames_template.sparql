@@ -1,0 +1,8 @@
+SELECT (COUNT (?item) as ?count)
+WHERE
+{
+  ?item p:P31 ?ps .
+  ?ps ps:P31 ?subclass .
+  ?subclass (wdt:P279*) wd:Q101352 .
+  ?item wdt:P407 wd:Q1321 .
+}
