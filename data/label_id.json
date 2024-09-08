@@ -1,0 +1,1443 @@
+{
+    "male-Q48277": "http://www.wikidata.org/entity/Q6581097",
+    "Diego-Q202444": [
+        "http://www.wikidata.org/entity/Q3579048"
+    ],
+    "Suáriz-Q101352": [
+        "http://www.wikidata.org/entity/Q5843971"
+    ],
+    "Spanish-Literal": "Literal",
+    "Spanish-Q34770": "http://www.wikidata.org/entity/Q1321",
+    "Alfonso-Q202444": [
+        "http://www.wikidata.org/entity/Q18180808"
+    ],
+    "Fernández-Q101352": [
+        "http://www.wikidata.org/entity/Q164892"
+    ],
+    "female-Q48277": "http://www.wikidata.org/entity/Q6581072",
+    "Maria-Q202444": [
+        "http://www.wikidata.org/entity/Q125964684",
+        "http://www.wikidata.org/entity/Q25413386",
+        "http://www.wikidata.org/entity/Q325872",
+        "http://www.wikidata.org/entity/Q56449214"
+    ],
+    "Álvariz-Q101352": [
+        "http://www.wikidata.org/entity/Q919574"
+    ],
+    "Pero-Q202444": [
+        "http://www.wikidata.org/entity/Q13567058"
+    ],
+    "Fernándiz-Q101352": [
+        "http://www.wikidata.org/entity/Q164892",
+        "http://www.wikidata.org/entity/Q32978516"
+    ],
+    "Spain-Q56061": [
+        "http://www.wikidata.org/entity/Q29",
+        "http://www.wikidata.org/entity/Q16254367",
+        "http://www.wikidata.org/entity/Q23709427"
+    ],
+    "Sardina-Q101352": [
+        "http://www.wikidata.org/entity/Q37563070"
+    ],
+    "Italian-Q34770": "http://www.wikidata.org/entity/Q652",
+    "Sancha-Q202444": [
+        "http://www.wikidata.org/entity/Q56071857"
+    ],
+    "Marinna-Q202444": [
+        "http://www.wikidata.org/entity/Q106654516",
+        "http://www.wikidata.org/entity/Q108548487",
+        "http://www.wikidata.org/entity/Q110577500",
+        "http://www.wikidata.org/entity/Q1120708",
+        "http://www.wikidata.org/entity/Q112241316",
+        "http://www.wikidata.org/entity/Q124971210",
+        "http://www.wikidata.org/entity/Q12795720",
+        "http://www.wikidata.org/entity/Q12795804",
+        "http://www.wikidata.org/entity/Q14437342",
+        "http://www.wikidata.org/entity/Q18141405",
+        "http://www.wikidata.org/entity/Q24069233",
+        "http://www.wikidata.org/entity/Q65263321",
+        "http://www.wikidata.org/entity/Q65767625",
+        "http://www.wikidata.org/entity/Q96324009",
+        "http://www.wikidata.org/entity/Q98205845",
+        "http://www.wikidata.org/entity/Q98557099"
+    ],
+    "Portuguese-Literal": "Literal",
+    "Portuguese-Q34770": "http://www.wikidata.org/entity/Q5146",
+    "Fernando-Q202444": [
+        "http://www.wikidata.org/entity/Q18115751"
+    ],
+    "Fernan-Q202444": [
+        "http://www.wikidata.org/entity/Q1406472",
+        "http://www.wikidata.org/entity/Q18402187",
+        "http://www.wikidata.org/entity/Q21055466",
+        "http://www.wikidata.org/entity/Q76414362",
+        "http://www.wikidata.org/entity/Q86589081",
+        "http://www.wikidata.org/entity/Q95292242",
+        "http://www.wikidata.org/entity/Q96807743"
+    ],
+    "Brazil-Q56061": [
+        "http://www.wikidata.org/entity/Q1998364",
+        "http://www.wikidata.org/entity/Q155",
+        "http://www.wikidata.org/entity/Q4958611",
+        "http://www.wikidata.org/entity/Q4958613",
+        "http://www.wikidata.org/entity/Q19600592",
+        "http://www.wikidata.org/entity/Q104261942"
+    ],
+    "Pérez-Q101352": [
+        "http://www.wikidata.org/entity/Q383010"
+    ],
+    "Andreo-Q202444": [
+        "http://www.wikidata.org/entity/Q110765180",
+        "http://www.wikidata.org/entity/Q110867045",
+        "http://www.wikidata.org/entity/Q119583916",
+        "http://www.wikidata.org/entity/Q13257568",
+        "http://www.wikidata.org/entity/Q15732892",
+        "http://www.wikidata.org/entity/Q16274896",
+        "http://www.wikidata.org/entity/Q18042461",
+        "http://www.wikidata.org/entity/Q18091406",
+        "http://www.wikidata.org/entity/Q18177306",
+        "http://www.wikidata.org/entity/Q18177321",
+        "http://www.wikidata.org/entity/Q19688258",
+        "http://www.wikidata.org/entity/Q19688259",
+        "http://www.wikidata.org/entity/Q19803435",
+        "http://www.wikidata.org/entity/Q19850904",
+        "http://www.wikidata.org/entity/Q27568750",
+        "http://www.wikidata.org/entity/Q493293",
+        "http://www.wikidata.org/entity/Q97961704",
+        "http://www.wikidata.org/entity/Q98442684"
+    ],
+    "Martíniz-Q101352": [
+        "http://www.wikidata.org/entity/Q37090544",
+        "http://www.wikidata.org/entity/Q37557879",
+        "http://www.wikidata.org/entity/Q906471"
+    ],
+    "Menen-Q202444": [
+        "http://www.wikidata.org/entity/Q111032421",
+        "http://www.wikidata.org/entity/Q3854650"
+    ],
+    "Turkish-Q34770": "http://www.wikidata.org/entity/Q256",
+    "Lorienca-Q202444": [
+        "http://www.wikidata.org/entity/Q110751587",
+        "http://www.wikidata.org/entity/Q118975839",
+        "http://www.wikidata.org/entity/Q20000545",
+        "http://www.wikidata.org/entity/Q20000954",
+        "http://www.wikidata.org/entity/Q21147624",
+        "http://www.wikidata.org/entity/Q3259421",
+        "http://www.wikidata.org/entity/Q3836844",
+        "http://www.wikidata.org/entity/Q56751566",
+        "http://www.wikidata.org/entity/Q64538768",
+        "http://www.wikidata.org/entity/Q73190798",
+        "http://www.wikidata.org/entity/Q857583",
+        "http://www.wikidata.org/entity/Q96477906"
+    ],
+    "Aldonca-Q202444": [
+        "http://www.wikidata.org/entity/Q106443407",
+        "http://www.wikidata.org/entity/Q113586544",
+        "http://www.wikidata.org/entity/Q20087948"
+    ],
+    "Suer-Q202444": [
+        "http://www.wikidata.org/entity/Q106145467",
+        "http://www.wikidata.org/entity/Q110823861",
+        "http://www.wikidata.org/entity/Q115864455",
+        "http://www.wikidata.org/entity/Q119506463",
+        "http://www.wikidata.org/entity/Q16281769",
+        "http://www.wikidata.org/entity/Q21142825",
+        "http://www.wikidata.org/entity/Q36151970",
+        "http://www.wikidata.org/entity/Q56870818",
+        "http://www.wikidata.org/entity/Q57227649",
+        "http://www.wikidata.org/entity/Q91106017",
+        "http://www.wikidata.org/entity/Q98103800"
+    ],
+    "Yánnez-Q101352": [
+        "http://www.wikidata.org/entity/Q106264267",
+        "http://www.wikidata.org/entity/Q115863974",
+        "http://www.wikidata.org/entity/Q122828663",
+        "http://www.wikidata.org/entity/Q18331203",
+        "http://www.wikidata.org/entity/Q21450247",
+        "http://www.wikidata.org/entity/Q36937159",
+        "http://www.wikidata.org/entity/Q36955798",
+        "http://www.wikidata.org/entity/Q37003813",
+        "http://www.wikidata.org/entity/Q37216478",
+        "http://www.wikidata.org/entity/Q37453271",
+        "http://www.wikidata.org/entity/Q37485150",
+        "http://www.wikidata.org/entity/Q37507743",
+        "http://www.wikidata.org/entity/Q54006845",
+        "http://www.wikidata.org/entity/Q98211275",
+        "http://www.wikidata.org/entity/Q98224719"
+    ],
+    "Iohan-Q202444": [
+        "http://www.wikidata.org/entity/Q10989273",
+        "http://www.wikidata.org/entity/Q110289081",
+        "http://www.wikidata.org/entity/Q110646844",
+        "http://www.wikidata.org/entity/Q113656606",
+        "http://www.wikidata.org/entity/Q115913679",
+        "http://www.wikidata.org/entity/Q122215409",
+        "http://www.wikidata.org/entity/Q20002173",
+        "http://www.wikidata.org/entity/Q2162146",
+        "http://www.wikidata.org/entity/Q60617576",
+        "http://www.wikidata.org/entity/Q61050364",
+        "http://www.wikidata.org/entity/Q8054435",
+        "http://www.wikidata.org/entity/Q91918576",
+        "http://www.wikidata.org/entity/Q931093",
+        "http://www.wikidata.org/entity/Q96675661"
+    ],
+    "Goncaliz-Q101352": [
+        "http://www.wikidata.org/entity/Q108905577",
+        "http://www.wikidata.org/entity/Q112661387",
+        "http://www.wikidata.org/entity/Q36974896",
+        "http://www.wikidata.org/entity/Q37108481",
+        "http://www.wikidata.org/entity/Q37186831",
+        "http://www.wikidata.org/entity/Q37228441",
+        "http://www.wikidata.org/entity/Q37265508",
+        "http://www.wikidata.org/entity/Q37495876",
+        "http://www.wikidata.org/entity/Q37517334",
+        "http://www.wikidata.org/entity/Q37544242",
+        "http://www.wikidata.org/entity/Q65105182"
+    ],
+    "Goncalo-Q202444": [
+        "http://www.wikidata.org/entity/Q18699663",
+        "http://www.wikidata.org/entity/Q19901997"
+    ],
+    "Díaz-Q101352": [
+        "http://www.wikidata.org/entity/Q5255562"
+    ],
+    "Garcia: male given name-Q202444": [
+        "http://www.wikidata.org/entity/Q29551139"
+    ],
+    "Rodríguiz-Q101352": [
+        "http://www.wikidata.org/entity/Q1654058",
+        "http://www.wikidata.org/entity/Q36998397"
+    ],
+    "Rodrigo-Q202444": [
+        "http://www.wikidata.org/entity/Q4927979"
+    ],
+    "Garot-Q101352": [
+        "http://www.wikidata.org/entity/Q21481492"
+    ],
+    "French-Literal": "Literal",
+    "French-Q34770": "http://www.wikidata.org/entity/Q150",
+    "Ingnes-Q202444": [
+        "http://www.wikidata.org/entity/Q66601783"
+    ],
+    "Álvarez-Q101352": [
+        "http://www.wikidata.org/entity/Q919574"
+    ],
+    "Odo-Q202444": [
+        "http://www.wikidata.org/entity/Q18339792"
+    ],
+    "Bernaldo-Q101352": [
+        "http://www.wikidata.org/entity/Q36943663"
+    ],
+    "Ruy-Q202444": [
+        "http://www.wikidata.org/entity/Q2177960"
+    ],
+    "Nicolas: family name-Q101352": [
+        "http://www.wikidata.org/entity/Q4321073"
+    ],
+    "Martin-Q202444": [
+        "http://www.wikidata.org/entity/Q118322765",
+        "http://www.wikidata.org/entity/Q18002399"
+    ],
+    "Sánchez-Q101352": [
+        "http://www.wikidata.org/entity/Q1158617"
+    ],
+    "Alvar-Q202444": [
+        "http://www.wikidata.org/entity/Q15831157"
+    ],
+    "Ferrándiz-Q101352": [
+        "http://www.wikidata.org/entity/Q32978516"
+    ],
+    "Áluarez-Q101352": [
+        "http://www.wikidata.org/entity/Q37078094",
+        "http://www.wikidata.org/entity/Q919574"
+    ],
+    "Alffonso-Q101352": [
+        "http://www.wikidata.org/entity/Q18327317",
+        "http://www.wikidata.org/entity/Q37207051",
+        "http://www.wikidata.org/entity/Q75122491"
+    ],
+    "Áluariz-Q101352": [
+        "http://www.wikidata.org/entity/Q37078094",
+        "http://www.wikidata.org/entity/Q919574"
+    ],
+    "Aluar-Q202444": [
+        "http://www.wikidata.org/entity/Q112744837",
+        "http://www.wikidata.org/entity/Q15831157",
+        "http://www.wikidata.org/entity/Q16419192",
+        "http://www.wikidata.org/entity/Q16419358",
+        "http://www.wikidata.org/entity/Q20001372",
+        "http://www.wikidata.org/entity/Q22915248",
+        "http://www.wikidata.org/entity/Q26695730",
+        "http://www.wikidata.org/entity/Q26740552",
+        "http://www.wikidata.org/entity/Q55743897"
+    ],
+    "Blanco-Q101352": [
+        "http://www.wikidata.org/entity/Q16860087"
+    ],
+    "Jess-Q202444": [
+        "http://www.wikidata.org/entity/Q18325859"
+    ],
+    "Roy-Q202444": [
+        "http://www.wikidata.org/entity/Q2170752"
+    ],
+    "Saco-Q101352": [
+        "http://www.wikidata.org/entity/Q37431657"
+    ],
+    "Alfonso-Q101352": [
+        "http://www.wikidata.org/entity/Q18327317"
+    ],
+    "Peláiz-Q101352": [
+        "http://www.wikidata.org/entity/Q21493893"
+    ],
+    "Abril-Q101352": [
+        "http://www.wikidata.org/entity/Q331445"
+    ],
+    "Garcia-Q101352": [
+        "http://www.wikidata.org/entity/Q29014547"
+    ],
+    "Nicolao-Q202444": [
+        "http://www.wikidata.org/entity/Q19968245"
+    ],
+    "Andres-Q202444": [
+        "http://www.wikidata.org/entity/Q18091406"
+    ],
+    "Pedro-Q202444": [
+        "http://www.wikidata.org/entity/Q15897419"
+    ],
+    "Sánchiz-Q101352": [
+        "http://www.wikidata.org/entity/Q1158617",
+        "http://www.wikidata.org/entity/Q56791684"
+    ],
+    "Suárez-Q101352": [
+        "http://www.wikidata.org/entity/Q5843971"
+    ],
+    "Vidal-Q101352": [
+        "http://www.wikidata.org/entity/Q21296136"
+    ],
+    "Iohanniz-Q101352": [
+        "http://www.wikidata.org/entity/Q56538755"
+    ],
+    "Rodríguez-Q101352": [
+        "http://www.wikidata.org/entity/Q1654058"
+    ],
+    "Suer: male given name-Q202444": [
+        "http://www.wikidata.org/entity/Q106145467",
+        "http://www.wikidata.org/entity/Q110823861",
+        "http://www.wikidata.org/entity/Q115864455",
+        "http://www.wikidata.org/entity/Q119506463",
+        "http://www.wikidata.org/entity/Q16281769",
+        "http://www.wikidata.org/entity/Q21142825",
+        "http://www.wikidata.org/entity/Q36151970",
+        "http://www.wikidata.org/entity/Q56870818",
+        "http://www.wikidata.org/entity/Q57227649",
+        "http://www.wikidata.org/entity/Q91106017",
+        "http://www.wikidata.org/entity/Q98103800"
+    ],
+    "Orraca-Q202444": [
+        "http://www.wikidata.org/entity/Q16619921"
+    ],
+    "Aparicio-Q202444": [
+        "http://www.wikidata.org/entity/Q21401386"
+    ],
+    "France-Q56061": [
+        "http://www.wikidata.org/entity/Q5478259",
+        "http://www.wikidata.org/entity/Q142",
+        "http://www.wikidata.org/entity/Q104267478"
+    ],
+    "Iohan-Q101352": [
+        "http://www.wikidata.org/entity/Q107231298"
+    ],
+    "Finnish-Literal": "Literal",
+    "Miguel-Q202444": [
+        "http://www.wikidata.org/entity/Q15620295"
+    ],
+    "Martino-Q202444": [
+        "http://www.wikidata.org/entity/Q12900955"
+    ],
+    "Martino: family name-Q101352": [
+        "http://www.wikidata.org/entity/Q18002394"
+    ],
+    "Yannez-Q101352": [
+        "http://www.wikidata.org/entity/Q37003813",
+        "http://www.wikidata.org/entity/Q37485150",
+        "http://www.wikidata.org/entity/Q37507743"
+    ],
+    "Elvira-Q202444": [
+        "http://www.wikidata.org/entity/Q107452025",
+        "http://www.wikidata.org/entity/Q3051870"
+    ],
+    "Duraniz-Q101352": [
+        "http://www.wikidata.org/entity/Q37162016"
+    ],
+    "Iohaniz-Q101352": [
+        "http://www.wikidata.org/entity/Q106631696",
+        "http://www.wikidata.org/entity/Q107231272",
+        "http://www.wikidata.org/entity/Q107231298",
+        "http://www.wikidata.org/entity/Q13185919",
+        "http://www.wikidata.org/entity/Q24085305",
+        "http://www.wikidata.org/entity/Q36890448",
+        "http://www.wikidata.org/entity/Q36973249",
+        "http://www.wikidata.org/entity/Q37038815",
+        "http://www.wikidata.org/entity/Q37500974",
+        "http://www.wikidata.org/entity/Q37567607",
+        "http://www.wikidata.org/entity/Q47494775",
+        "http://www.wikidata.org/entity/Q56538755",
+        "http://www.wikidata.org/entity/Q83359755"
+    ],
+    "Michel: family name-Q101352": [
+        "http://www.wikidata.org/entity/Q12036851"
+    ],
+    "Peláez-Q101352": [
+        "http://www.wikidata.org/entity/Q21493893"
+    ],
+    "Taresa-Q202444": [
+        "http://www.wikidata.org/entity/Q1286462",
+        "http://www.wikidata.org/entity/Q1316836",
+        "http://www.wikidata.org/entity/Q19967650",
+        "http://www.wikidata.org/entity/Q2793617"
+    ],
+    "Turkish-Literal": "Literal",
+    "Turkey-Q56061": [
+        "http://www.wikidata.org/entity/Q975535",
+        "http://www.wikidata.org/entity/Q101581905",
+        "http://www.wikidata.org/entity/Q43",
+        "http://www.wikidata.org/entity/Q7855035",
+        "http://www.wikidata.org/entity/Q2024092"
+    ],
+    "Gutiérriz-Q101352": [
+        "http://www.wikidata.org/entity/Q2255316"
+    ],
+    "Catalina-Q202444": [
+        "http://www.wikidata.org/entity/Q5051251"
+    ],
+    "Gutier-Q202444": [
+        "http://www.wikidata.org/entity/Q100234475"
+    ],
+    "Adan-Q202444": [
+        "http://www.wikidata.org/entity/Q96652121"
+    ],
+    "Sancho-Q202444": [
+        "http://www.wikidata.org/entity/Q16600098"
+    ],
+    "Martínez-Q101352": [
+        "http://www.wikidata.org/entity/Q906471"
+    ],
+    "Gutérriz-Q101352": [
+        "http://www.wikidata.org/entity/Q2255316",
+        "http://www.wikidata.org/entity/Q37100129"
+    ],
+    "Matios-Q202444": [
+        "http://www.wikidata.org/entity/Q120549585",
+        "http://www.wikidata.org/entity/Q19688705",
+        "http://www.wikidata.org/entity/Q20000582",
+        "http://www.wikidata.org/entity/Q24068975",
+        "http://www.wikidata.org/entity/Q25126041",
+        "http://www.wikidata.org/entity/Q59358926",
+        "http://www.wikidata.org/entity/Q97626507"
+    ],
+    "Chirildos-Q101352": [
+        "http://www.wikidata.org/entity/Q107201083",
+        "http://www.wikidata.org/entity/Q20430928",
+        "http://www.wikidata.org/entity/Q25114751",
+        "http://www.wikidata.org/entity/Q37505015"
+    ],
+    "Mieczysaw-Q202444": [
+        "http://www.wikidata.org/entity/Q1925936",
+        "http://www.wikidata.org/entity/Q20088021"
+    ],
+    "Rodrig-Q202444": [
+        "http://www.wikidata.org/entity/Q105906534",
+        "http://www.wikidata.org/entity/Q115258637",
+        "http://www.wikidata.org/entity/Q4927979"
+    ],
+    "Lorienco-Q202444": [
+        "http://www.wikidata.org/entity/Q112173988",
+        "http://www.wikidata.org/entity/Q118975839",
+        "http://www.wikidata.org/entity/Q4267021",
+        "http://www.wikidata.org/entity/Q43382243",
+        "http://www.wikidata.org/entity/Q63970243",
+        "http://www.wikidata.org/entity/Q64538768",
+        "http://www.wikidata.org/entity/Q96477906"
+    ],
+    "Apparicio-Q101352": [
+        "http://www.wikidata.org/entity/Q37535709"
+    ],
+    "Fer[nan]-Q202444": [
+        "http://www.wikidata.org/entity/Q1406472"
+    ],
+    "researcher-Q12737077": [
+        "http://www.wikidata.org/entity/Q1650915",
+        "http://www.wikidata.org/entity/Q124673431"
+    ],
+    "Petrus-Q202444": [
+        "http://www.wikidata.org/entity/Q15897708"
+    ],
+    "Iohannes-Q202444": [
+        "http://www.wikidata.org/entity/Q100340732"
+    ],
+    "Ancient Greek-Q34770": "http://www.wikidata.org/entity/Q35497",
+    "Martinus-Q202444": [
+        "http://www.wikidata.org/entity/Q17520926"
+    ],
+    "Martinus: family name-Q101352": [
+        "http://www.wikidata.org/entity/Q37317431"
+    ],
+    "Latin-Q34770": "http://www.wikidata.org/entity/Q397",
+    "Mayor-Q202444": [
+        "http://www.wikidata.org/entity/Q44687528"
+    ],
+    "Gómez-Q101352": [
+        "http://www.wikidata.org/entity/Q1559123"
+    ],
+    "Cherildos-Q101352": [
+        "http://www.wikidata.org/entity/Q37319403"
+    ],
+    "del Rosal-Q101352": [
+        "http://www.wikidata.org/entity/Q107599006"
+    ],
+    "Alvarez-Q101352": [
+        "http://www.wikidata.org/entity/Q25261946"
+    ],
+    "Marina-Q202444": [
+        "http://www.wikidata.org/entity/Q106654516",
+        "http://www.wikidata.org/entity/Q1120708",
+        "http://www.wikidata.org/entity/Q98205845"
+    ],
+    "Garca-Q202444": [
+        "http://www.wikidata.org/entity/Q1008090",
+        "http://www.wikidata.org/entity/Q120852594",
+        "http://www.wikidata.org/entity/Q17984018",
+        "http://www.wikidata.org/entity/Q29551139",
+        "http://www.wikidata.org/entity/Q50810339",
+        "http://www.wikidata.org/entity/Q5522068",
+        "http://www.wikidata.org/entity/Q5523153"
+    ],
+    "Gonzáliz-Q101352": [
+        "http://www.wikidata.org/entity/Q5576697"
+    ],
+    "Ignes-Q202444": [
+        "http://www.wikidata.org/entity/Q117327479",
+        "http://www.wikidata.org/entity/Q16010167",
+        "http://www.wikidata.org/entity/Q1657313",
+        "http://www.wikidata.org/entity/Q18760757",
+        "http://www.wikidata.org/entity/Q394431",
+        "http://www.wikidata.org/entity/Q6028525",
+        "http://www.wikidata.org/entity/Q65121429",
+        "http://www.wikidata.org/entity/Q66601783"
+    ],
+    "Goncalez-Q101352": [
+        "http://www.wikidata.org/entity/Q108905577",
+        "http://www.wikidata.org/entity/Q36974896",
+        "http://www.wikidata.org/entity/Q37108481",
+        "http://www.wikidata.org/entity/Q37495876",
+        "http://www.wikidata.org/entity/Q37517334",
+        "http://www.wikidata.org/entity/Q37544242"
+    ],
+    "González-Q101352": [
+        "http://www.wikidata.org/entity/Q5576697"
+    ],
+    "Oddo-Q202444": [
+        "http://www.wikidata.org/entity/Q18030266"
+    ],
+    "Abaltzisketa-Q56061": [
+        "http://www.wikidata.org/entity/Q1598962",
+        "http://www.wikidata.org/entity/Q120172358"
+    ],
+    "Abaltzisketa-Literal": "Literal",
+    "Iohanni-Q202444": [
+        "http://www.wikidata.org/entity/Q21141911"
+    ],
+    "Martinibus: male given name-Q202444": [
+        "http://www.wikidata.org/entity/Q28174114"
+    ],
+    "Andreo-Q101352": [
+        "http://www.wikidata.org/entity/Q37207649"
+    ],
+    "Marya-Q202444": [
+        "http://www.wikidata.org/entity/Q64676395"
+    ],
+    "Martiniz-Q101352": [
+        "http://www.wikidata.org/entity/Q37090544"
+    ],
+    "Pero: male given name-Q202444": [
+        "http://www.wikidata.org/entity/Q13567058"
+    ],
+    "Bartolome-Q202444": [
+        "http://www.wikidata.org/entity/Q19688272",
+        "http://www.wikidata.org/entity/Q19967769",
+        "http://www.wikidata.org/entity/Q21285849",
+        "http://www.wikidata.org/entity/Q23310002",
+        "http://www.wikidata.org/entity/Q66722986",
+        "http://www.wikidata.org/entity/Q939850"
+    ],
+    "García-Q101352": [
+        "http://www.wikidata.org/entity/Q980636"
+    ],
+    "Cosmea-Q202444": [
+        "http://www.wikidata.org/entity/Q111593094",
+        "http://www.wikidata.org/entity/Q20001787",
+        "http://www.wikidata.org/entity/Q4515104",
+        "http://www.wikidata.org/entity/Q66545461"
+    ],
+    "Per[ez-Q101352": [
+        "http://www.wikidata.org/entity/Q21482850",
+        "http://www.wikidata.org/entity/Q37160180",
+        "http://www.wikidata.org/entity/Q37453974",
+        "http://www.wikidata.org/entity/Q37511293"
+    ],
+    "Fernandiz-Q101352": [
+        "http://www.wikidata.org/entity/Q109003585",
+        "http://www.wikidata.org/entity/Q28912637",
+        "http://www.wikidata.org/entity/Q99655693"
+    ],
+    "Yánniz-Q101352": [
+        "http://www.wikidata.org/entity/Q36876268",
+        "http://www.wikidata.org/entity/Q37130954",
+        "http://www.wikidata.org/entity/Q37483186",
+        "http://www.wikidata.org/entity/Q37533068"
+    ],
+    "Russian-Q34770": "http://www.wikidata.org/entity/Q7737",
+    "Menendiz-Q101352": [
+        "http://www.wikidata.org/entity/Q37515700"
+    ],
+    "Estéuanez-Q101352": [
+        "http://www.wikidata.org/entity/Q54625265"
+    ],
+    "Alfons-Q202444": [
+        "http://www.wikidata.org/entity/Q18180801"
+    ],
+    "Eluira-Q202444": [
+        "http://www.wikidata.org/entity/Q107452025",
+        "http://www.wikidata.org/entity/Q122206993",
+        "http://www.wikidata.org/entity/Q123759041",
+        "http://www.wikidata.org/entity/Q124545312",
+        "http://www.wikidata.org/entity/Q20088046",
+        "http://www.wikidata.org/entity/Q23813346",
+        "http://www.wikidata.org/entity/Q3051870",
+        "http://www.wikidata.org/entity/Q600381"
+    ],
+    "Yuannes-Q101352": [
+        "http://www.wikidata.org/entity/Q37485150"
+    ],
+    "Cuerdo-Q101352": [
+        "http://www.wikidata.org/entity/Q124049072",
+        "http://www.wikidata.org/entity/Q37251768",
+        "http://www.wikidata.org/entity/Q37443817",
+        "http://www.wikidata.org/entity/Q90581862"
+    ],
+    "Pasqual-Q202444": [
+        "http://www.wikidata.org/entity/Q18220769"
+    ],
+    "Iohannez-Q101352": [
+        "http://www.wikidata.org/entity/Q117081712",
+        "http://www.wikidata.org/entity/Q27966523",
+        "http://www.wikidata.org/entity/Q37524062",
+        "http://www.wikidata.org/entity/Q56538755",
+        "http://www.wikidata.org/entity/Q65098343",
+        "http://www.wikidata.org/entity/Q83359764"
+    ],
+    "Domingo-Q202444": [
+        "http://www.wikidata.org/entity/Q18199014"
+    ],
+    "Iohannes-Q101352": [
+        "http://www.wikidata.org/entity/Q27966523",
+        "http://www.wikidata.org/entity/Q37524062",
+        "http://www.wikidata.org/entity/Q56538755"
+    ],
+    "Martinez-Q101352": [
+        "http://www.wikidata.org/entity/Q28812761"
+    ],
+    "Italy-Q56061": [
+        "http://www.wikidata.org/entity/Q66477411",
+        "http://www.wikidata.org/entity/Q38",
+        "http://www.wikidata.org/entity/Q977238",
+        "http://www.wikidata.org/entity/Q3708720"
+    ],
+    "Menéndiz-Q101352": [
+        "http://www.wikidata.org/entity/Q29441579"
+    ],
+    "Menéndez-Q101352": [
+        "http://www.wikidata.org/entity/Q29441579"
+    ],
+    "Tomas-Q202444": [
+        "http://www.wikidata.org/entity/Q1546318",
+        "http://www.wikidata.org/entity/Q96675919"
+    ],
+    "Tomas: family name-Q101352": [
+        "http://www.wikidata.org/entity/Q15091707"
+    ],
+    "Morán-Q101352": [
+        "http://www.wikidata.org/entity/Q21500914"
+    ],
+    "Pico-Q101352": [
+        "http://www.wikidata.org/entity/Q36912280"
+    ],
+    "Nariz-Q101352": [
+        "http://www.wikidata.org/entity/Q107435451",
+        "http://www.wikidata.org/entity/Q107444246",
+        "http://www.wikidata.org/entity/Q36950427",
+        "http://www.wikidata.org/entity/Q37437088",
+        "http://www.wikidata.org/entity/Q37486192",
+        "http://www.wikidata.org/entity/Q37488842",
+        "http://www.wikidata.org/entity/Q37558439",
+        "http://www.wikidata.org/entity/Q49342632",
+        "http://www.wikidata.org/entity/Q65111284"
+    ],
+    "Iohánniz-Q101352": [
+        "http://www.wikidata.org/entity/Q56538755"
+    ],
+    "Cezilla-Q202444": [
+        "http://www.wikidata.org/entity/Q104621368",
+        "http://www.wikidata.org/entity/Q105901707",
+        "http://www.wikidata.org/entity/Q115922742",
+        "http://www.wikidata.org/entity/Q123581380",
+        "http://www.wikidata.org/entity/Q16422363",
+        "http://www.wikidata.org/entity/Q16422371",
+        "http://www.wikidata.org/entity/Q19869326",
+        "http://www.wikidata.org/entity/Q21142594",
+        "http://www.wikidata.org/entity/Q21147600",
+        "http://www.wikidata.org/entity/Q512586",
+        "http://www.wikidata.org/entity/Q5120002",
+        "http://www.wikidata.org/entity/Q72312451",
+        "http://www.wikidata.org/entity/Q79605557",
+        "http://www.wikidata.org/entity/Q859234"
+    ],
+    "Gonçalez-Q101352": [
+        "http://www.wikidata.org/entity/Q108905577"
+    ],
+    "Alffonsso-Q101352": [
+        "http://www.wikidata.org/entity/Q18327317",
+        "http://www.wikidata.org/entity/Q37207051",
+        "http://www.wikidata.org/entity/Q75122491"
+    ],
+    "Duran-Q202444": [
+        "http://www.wikidata.org/entity/Q98651513"
+    ],
+    "Nicolas-Q202444": [
+        "http://www.wikidata.org/entity/Q7029481"
+    ],
+    "Pacho-Q101352": [
+        "http://www.wikidata.org/entity/Q37466141"
+    ],
+    "Laganna-Q101352": [
+        "http://www.wikidata.org/entity/Q37302660",
+        "http://www.wikidata.org/entity/Q37561021"
+    ],
+    "Monin-Q202444": [
+        "http://www.wikidata.org/entity/Q101427577",
+        "http://www.wikidata.org/entity/Q10588252",
+        "http://www.wikidata.org/entity/Q106145686",
+        "http://www.wikidata.org/entity/Q109128137",
+        "http://www.wikidata.org/entity/Q109558292",
+        "http://www.wikidata.org/entity/Q110630917",
+        "http://www.wikidata.org/entity/Q111893900",
+        "http://www.wikidata.org/entity/Q122206015",
+        "http://www.wikidata.org/entity/Q122215999",
+        "http://www.wikidata.org/entity/Q124669660",
+        "http://www.wikidata.org/entity/Q3325971",
+        "http://www.wikidata.org/entity/Q77469728",
+        "http://www.wikidata.org/entity/Q86589154",
+        "http://www.wikidata.org/entity/Q94336903",
+        "http://www.wikidata.org/entity/Q98756161",
+        "http://www.wikidata.org/entity/Q99884007"
+    ],
+    "Mayor: male given name-Q202444": [
+        "http://www.wikidata.org/entity/Q44687528"
+    ],
+    "Lope-Q202444": [
+        "http://www.wikidata.org/entity/Q16833196"
+    ],
+    "Manuel-Q202444": [
+        "http://www.wikidata.org/entity/Q11113719",
+        "http://www.wikidata.org/entity/Q117175373",
+        "http://www.wikidata.org/entity/Q98497161"
+    ],
+    "Estévanez-Q101352": [
+        "http://www.wikidata.org/entity/Q54625265"
+    ],
+    "Ferrándoz-Q101352": [
+        "http://www.wikidata.org/entity/Q32978516",
+        "http://www.wikidata.org/entity/Q61669050"
+    ],
+    "Pumar-Q202444": [
+        "http://www.wikidata.org/entity/Q16278100",
+        "http://www.wikidata.org/entity/Q19869557",
+        "http://www.wikidata.org/entity/Q59483818"
+    ],
+    "Uerán-Q101352": [
+        "http://www.wikidata.org/entity/Q29014660",
+        "http://www.wikidata.org/entity/Q32856341",
+        "http://www.wikidata.org/entity/Q50826417"
+    ],
+    "Giral-Q202444": [
+        "http://www.wikidata.org/entity/Q107189765",
+        "http://www.wikidata.org/entity/Q115177248",
+        "http://www.wikidata.org/entity/Q116207469",
+        "http://www.wikidata.org/entity/Q65945769",
+        "http://www.wikidata.org/entity/Q93497274"
+    ],
+    "Nicola-Q202444": [
+        "http://www.wikidata.org/entity/Q951924"
+    ],
+    "Rodriguiz-Q101352": [
+        "http://www.wikidata.org/entity/Q36998397",
+        "http://www.wikidata.org/entity/Q37315570",
+        "http://www.wikidata.org/entity/Q37519455"
+    ],
+    "Iohano: male given name-Q202444": [
+        "http://www.wikidata.org/entity/Q108709492",
+        "http://www.wikidata.org/entity/Q10989273",
+        "http://www.wikidata.org/entity/Q110289081",
+        "http://www.wikidata.org/entity/Q110646844",
+        "http://www.wikidata.org/entity/Q110921063",
+        "http://www.wikidata.org/entity/Q11122389",
+        "http://www.wikidata.org/entity/Q113646638",
+        "http://www.wikidata.org/entity/Q113656606",
+        "http://www.wikidata.org/entity/Q113690505",
+        "http://www.wikidata.org/entity/Q115913679",
+        "http://www.wikidata.org/entity/Q122215409",
+        "http://www.wikidata.org/entity/Q123593050",
+        "http://www.wikidata.org/entity/Q126019670",
+        "http://www.wikidata.org/entity/Q126176861",
+        "http://www.wikidata.org/entity/Q16566853",
+        "http://www.wikidata.org/entity/Q17125945",
+        "http://www.wikidata.org/entity/Q18182625",
+        "http://www.wikidata.org/entity/Q20002173",
+        "http://www.wikidata.org/entity/Q21141878",
+        "http://www.wikidata.org/entity/Q21141911",
+        "http://www.wikidata.org/entity/Q2162146",
+        "http://www.wikidata.org/entity/Q23197767",
+        "http://www.wikidata.org/entity/Q3319095",
+        "http://www.wikidata.org/entity/Q56797772",
+        "http://www.wikidata.org/entity/Q58525724",
+        "http://www.wikidata.org/entity/Q60617576",
+        "http://www.wikidata.org/entity/Q6061892",
+        "http://www.wikidata.org/entity/Q608366",
+        "http://www.wikidata.org/entity/Q61050364",
+        "http://www.wikidata.org/entity/Q65967420",
+        "http://www.wikidata.org/entity/Q8054435",
+        "http://www.wikidata.org/entity/Q80928258",
+        "http://www.wikidata.org/entity/Q83345393",
+        "http://www.wikidata.org/entity/Q91918576",
+        "http://www.wikidata.org/entity/Q931093",
+        "http://www.wikidata.org/entity/Q96652225",
+        "http://www.wikidata.org/entity/Q96656416",
+        "http://www.wikidata.org/entity/Q96675661"
+    ],
+    "Morina-Q101352": [
+        "http://www.wikidata.org/entity/Q122214423",
+        "http://www.wikidata.org/entity/Q16877411"
+    ],
+    "Nieto-Q101352": [
+        "http://www.wikidata.org/entity/Q20963719"
+    ],
+    "Taressa-Q202444": [
+        "http://www.wikidata.org/entity/Q72728503",
+        "http://www.wikidata.org/entity/Q79605643"
+    ],
+    "Iohanniz-Q202444": [
+        "http://www.wikidata.org/entity/Q100340732",
+        "http://www.wikidata.org/entity/Q10303410",
+        "http://www.wikidata.org/entity/Q20730411",
+        "http://www.wikidata.org/entity/Q21141911",
+        "http://www.wikidata.org/entity/Q58827213"
+    ],
+    "Perez-Q101352": [
+        "http://www.wikidata.org/entity/Q21482850",
+        "http://www.wikidata.org/entity/Q37453974"
+    ],
+    "Franco: family name-Q101352": [
+        "http://www.wikidata.org/entity/Q17983447"
+    ],
+    "Ponz-Q101352": [
+        "http://www.wikidata.org/entity/Q69528013"
+    ],
+    "Per-Q202444": [
+        "http://www.wikidata.org/entity/Q13582800"
+    ],
+    "Anes-Q101352": [
+        "http://www.wikidata.org/entity/Q37437738"
+    ],
+    "Swedish-Q34770": "http://www.wikidata.org/entity/Q9027",
+    "Antonio-Q202444": [
+        "http://www.wikidata.org/entity/Q7141520"
+    ],
+    "Picón-Q101352": [
+        "http://www.wikidata.org/entity/Q50571577"
+    ],
+    "Gato-Q101352": [
+        "http://www.wikidata.org/entity/Q25114246"
+    ],
+    "Périz-Q101352": [
+        "http://www.wikidata.org/entity/Q70386819"
+    ],
+    "Peláyz-Q101352": [
+        "http://www.wikidata.org/entity/Q21493893"
+    ],
+    "Escantola-Q101352": [
+        "http://www.wikidata.org/entity/Q126075675",
+        "http://www.wikidata.org/entity/Q37114941",
+        "http://www.wikidata.org/entity/Q37532438"
+    ],
+    "Marcos-Q202444": [
+        "http://www.wikidata.org/entity/Q6757805"
+    ],
+    "Tebera-Q101352": [
+        "http://www.wikidata.org/entity/Q111776052",
+        "http://www.wikidata.org/entity/Q118068128",
+        "http://www.wikidata.org/entity/Q118079242",
+        "http://www.wikidata.org/entity/Q21498071",
+        "http://www.wikidata.org/entity/Q24955818",
+        "http://www.wikidata.org/entity/Q37072092",
+        "http://www.wikidata.org/entity/Q37200315",
+        "http://www.wikidata.org/entity/Q37430577",
+        "http://www.wikidata.org/entity/Q37462535",
+        "http://www.wikidata.org/entity/Q37488264",
+        "http://www.wikidata.org/entity/Q37524669",
+        "http://www.wikidata.org/entity/Q7692049"
+    ],
+    "Guillez-Q101352": [
+        "http://www.wikidata.org/entity/Q65105746"
+    ],
+    "Rama-Q202444": [
+        "http://www.wikidata.org/entity/Q16124674",
+        "http://www.wikidata.org/entity/Q27943470",
+        "http://www.wikidata.org/entity/Q47531489"
+    ],
+    "Ferrando-Q202444": [
+        "http://www.wikidata.org/entity/Q112161740"
+    ],
+    "Moro-Q101352": [
+        "http://www.wikidata.org/entity/Q117190276",
+        "http://www.wikidata.org/entity/Q27263446",
+        "http://www.wikidata.org/entity/Q30669704"
+    ],
+    "Prieto-Q101352": [
+        "http://www.wikidata.org/entity/Q7242944"
+    ],
+    "Simon-Q202444": [
+        "http://www.wikidata.org/entity/Q25711755",
+        "http://www.wikidata.org/entity/Q4117588"
+    ],
+    "Girálliz-Q101352": [
+        "http://www.wikidata.org/entity/Q56538491",
+        "http://www.wikidata.org/entity/Q58823863"
+    ],
+    "Santiago: family name-Q101352": [
+        "http://www.wikidata.org/entity/Q16882643"
+    ],
+    "Christian-Q202444": [
+        "http://www.wikidata.org/entity/Q18001597"
+    ],
+    "Alffonso-Q202444": [
+        "http://www.wikidata.org/entity/Q18180808",
+        "http://www.wikidata.org/entity/Q21285815",
+        "http://www.wikidata.org/entity/Q61677738"
+    ],
+    "Peley-Q202444": [
+        "http://www.wikidata.org/entity/Q12410600",
+        "http://www.wikidata.org/entity/Q16423797",
+        "http://www.wikidata.org/entity/Q18198433",
+        "http://www.wikidata.org/entity/Q58048637",
+        "http://www.wikidata.org/entity/Q84981470",
+        "http://www.wikidata.org/entity/Q87361343",
+        "http://www.wikidata.org/entity/Q96675590",
+        "http://www.wikidata.org/entity/Q96675621"
+    ],
+    "Iulian-Q202444": [
+        "http://www.wikidata.org/entity/Q23048718"
+    ],
+    "Romanian-Literal": "Literal",
+    "Romania-Q56061": [
+        "http://www.wikidata.org/entity/Q7362480",
+        "http://www.wikidata.org/entity/Q218"
+    ],
+    "Romanian-Q34770": "http://www.wikidata.org/entity/Q7913",
+    "Cabeça-Q101352": [
+        "http://www.wikidata.org/entity/Q36854846",
+        "http://www.wikidata.org/entity/Q37548651"
+    ],
+    "Tebiera-Q101352": [
+        "http://www.wikidata.org/entity/Q36942087"
+    ],
+    "Marcos: family name-Q101352": [
+        "http://www.wikidata.org/entity/Q37572593"
+    ],
+    "...-Q202444": [
+        "http://www.wikidata.org/entity/Q106677475",
+        "http://www.wikidata.org/entity/Q106825653",
+        "http://www.wikidata.org/entity/Q112455924",
+        "http://www.wikidata.org/entity/Q122206964",
+        "http://www.wikidata.org/entity/Q19803442",
+        "http://www.wikidata.org/entity/Q19803497",
+        "http://www.wikidata.org/entity/Q19803499",
+        "http://www.wikidata.org/entity/Q19803500",
+        "http://www.wikidata.org/entity/Q19803501",
+        "http://www.wikidata.org/entity/Q19803502",
+        "http://www.wikidata.org/entity/Q19803504",
+        "http://www.wikidata.org/entity/Q19803505",
+        "http://www.wikidata.org/entity/Q19803506",
+        "http://www.wikidata.org/entity/Q19803507",
+        "http://www.wikidata.org/entity/Q19803508",
+        "http://www.wikidata.org/entity/Q19803509",
+        "http://www.wikidata.org/entity/Q19803510",
+        "http://www.wikidata.org/entity/Q19803511",
+        "http://www.wikidata.org/entity/Q19803512",
+        "http://www.wikidata.org/entity/Q19803513",
+        "http://www.wikidata.org/entity/Q19803515",
+        "http://www.wikidata.org/entity/Q19803517",
+        "http://www.wikidata.org/entity/Q19803518",
+        "http://www.wikidata.org/entity/Q19803520",
+        "http://www.wikidata.org/entity/Q19803521",
+        "http://www.wikidata.org/entity/Q19803522",
+        "http://www.wikidata.org/entity/Q19803523",
+        "http://www.wikidata.org/entity/Q19803524",
+        "http://www.wikidata.org/entity/Q19803525",
+        "http://www.wikidata.org/entity/Q19803526",
+        "http://www.wikidata.org/entity/Q20098789",
+        "http://www.wikidata.org/entity/Q37483719",
+        "http://www.wikidata.org/entity/Q39247448",
+        "http://www.wikidata.org/entity/Q45743325",
+        "http://www.wikidata.org/entity/Q62401432",
+        "http://www.wikidata.org/entity/Q72754105",
+        "http://www.wikidata.org/entity/Q73358582",
+        "http://www.wikidata.org/entity/Q73805752",
+        "http://www.wikidata.org/entity/Q74534787",
+        "http://www.wikidata.org/entity/Q74547275",
+        "http://www.wikidata.org/entity/Q87664613",
+        "http://www.wikidata.org/entity/Q98925649",
+        "http://www.wikidata.org/entity/Q99912676"
+    ],
+    "Bercio-Q202444": [
+        "http://www.wikidata.org/entity/Q122233127"
+    ],
+    "Lana: family name-Q101352": [
+        "http://www.wikidata.org/entity/Q37471612"
+    ],
+    "Loys-Q202444": [
+        "http://www.wikidata.org/entity/Q19968150"
+    ],
+    "Gorrión-Q101352": [
+        "http://www.wikidata.org/entity/Q37314894"
+    ],
+    "Carrión-Q101352": [
+        "http://www.wikidata.org/entity/Q5046483"
+    ],
+    "Pisón-Q101352": [
+        "http://www.wikidata.org/entity/Q104038425",
+        "http://www.wikidata.org/entity/Q104554094",
+        "http://www.wikidata.org/entity/Q107327773",
+        "http://www.wikidata.org/entity/Q115748449",
+        "http://www.wikidata.org/entity/Q117834568",
+        "http://www.wikidata.org/entity/Q37235283",
+        "http://www.wikidata.org/entity/Q50571577"
+    ],
+    "Esté[uanez-Q101352": [
+        "http://www.wikidata.org/entity/Q54625265"
+    ],
+    "Guiton-Q202444": [
+        "http://www.wikidata.org/entity/Q113639227"
+    ],
+    "Ygnes-Q202444": [
+        "http://www.wikidata.org/entity/Q16010167",
+        "http://www.wikidata.org/entity/Q394431"
+    ],
+    "Gonzalo-Q202444": [
+        "http://www.wikidata.org/entity/Q19901997"
+    ],
+    "Díez-Q101352": [
+        "http://www.wikidata.org/entity/Q20672250"
+    ],
+    "Hedrado-Q202444": [
+        "http://www.wikidata.org/entity/Q104538223",
+        "http://www.wikidata.org/entity/Q106879768",
+        "http://www.wikidata.org/entity/Q122232117",
+        "http://www.wikidata.org/entity/Q97984840"
+    ],
+    "Salamanes-Q101352": [
+        "http://www.wikidata.org/entity/Q111773367",
+        "http://www.wikidata.org/entity/Q113123794",
+        "http://www.wikidata.org/entity/Q123175402",
+        "http://www.wikidata.org/entity/Q36864196",
+        "http://www.wikidata.org/entity/Q37083469",
+        "http://www.wikidata.org/entity/Q37324281",
+        "http://www.wikidata.org/entity/Q37328081",
+        "http://www.wikidata.org/entity/Q37545517",
+        "http://www.wikidata.org/entity/Q53679308",
+        "http://www.wikidata.org/entity/Q65513107",
+        "http://www.wikidata.org/entity/Q98209504"
+    ],
+    "Gutiérrez-Q101352": [
+        "http://www.wikidata.org/entity/Q2255316"
+    ],
+    "Bartolomeo-Q202444": [
+        "http://www.wikidata.org/entity/Q939850"
+    ],
+    "Paris-Literal": "Literal",
+    "Ferrández-Q101352": [
+        "http://www.wikidata.org/entity/Q61669050"
+    ],
+    "Mencia-Q202444": [
+        "http://www.wikidata.org/entity/Q102637982",
+        "http://www.wikidata.org/entity/Q106145669",
+        "http://www.wikidata.org/entity/Q106145676",
+        "http://www.wikidata.org/entity/Q6010179"
+    ],
+    "Diegalu-Q202444": [
+        "http://www.wikidata.org/entity/Q117359134",
+        "http://www.wikidata.org/entity/Q64283806"
+    ],
+    "Domínguiz-Q101352": [
+        "http://www.wikidata.org/entity/Q27643894"
+    ],
+    "Seco-Q101352": [
+        "http://www.wikidata.org/entity/Q37060110"
+    ],
+    "Corcoua-Q101352": [
+        "http://www.wikidata.org/entity/Q105394345",
+        "http://www.wikidata.org/entity/Q105489122",
+        "http://www.wikidata.org/entity/Q106352361",
+        "http://www.wikidata.org/entity/Q107204656",
+        "http://www.wikidata.org/entity/Q107204528",
+        "http://www.wikidata.org/entity/Q107204492",
+        "http://www.wikidata.org/entity/Q107204487",
+        "http://www.wikidata.org/entity/Q107204482",
+        "http://www.wikidata.org/entity/Q107204480",
+        "http://www.wikidata.org/entity/Q107204476",
+        "http://www.wikidata.org/entity/Q107204475",
+        "http://www.wikidata.org/entity/Q107204472",
+        "http://www.wikidata.org/entity/Q107204459",
+        "http://www.wikidata.org/entity/Q107440728",
+        "http://www.wikidata.org/entity/Q107440729",
+        "http://www.wikidata.org/entity/Q113754207",
+        "http://www.wikidata.org/entity/Q123820492",
+        "http://www.wikidata.org/entity/Q124618254",
+        "http://www.wikidata.org/entity/Q125522865",
+        "http://www.wikidata.org/entity/Q16865778",
+        "http://www.wikidata.org/entity/Q20811337",
+        "http://www.wikidata.org/entity/Q28911377",
+        "http://www.wikidata.org/entity/Q36949856",
+        "http://www.wikidata.org/entity/Q37069290",
+        "http://www.wikidata.org/entity/Q37078070",
+        "http://www.wikidata.org/entity/Q37135337",
+        "http://www.wikidata.org/entity/Q37301170",
+        "http://www.wikidata.org/entity/Q37314986",
+        "http://www.wikidata.org/entity/Q37458536",
+        "http://www.wikidata.org/entity/Q37507909",
+        "http://www.wikidata.org/entity/Q52333029",
+        "http://www.wikidata.org/entity/Q60337117",
+        "http://www.wikidata.org/entity/Q64620769",
+        "http://www.wikidata.org/entity/Q65100137"
+    ],
+    "Cosme-Q202444": [
+        "http://www.wikidata.org/entity/Q4515104"
+    ],
+    "Menén-Q101352": [
+        "http://www.wikidata.org/entity/Q107604643"
+    ],
+    "Heros-Q202444": [
+        "http://www.wikidata.org/entity/Q111663172",
+        "http://www.wikidata.org/entity/Q1613830",
+        "http://www.wikidata.org/entity/Q5742606",
+        "http://www.wikidata.org/entity/Q64961306"
+    ],
+    "Uasallo-Q101352": [
+        "http://www.wikidata.org/entity/Q37152383",
+        "http://www.wikidata.org/entity/Q7916314"
+    ],
+    "Toro-Q101352": [
+        "http://www.wikidata.org/entity/Q21487242"
+    ],
+    "Vassallo-Q101352": [
+        "http://www.wikidata.org/entity/Q21496451"
+    ],
+    "Finland-Q56061": [
+        "http://www.wikidata.org/entity/Q5450446",
+        "http://www.wikidata.org/entity/Q33",
+        "http://www.wikidata.org/entity/Q5450445",
+        "http://www.wikidata.org/entity/Q22073100",
+        "http://www.wikidata.org/entity/Q2580855"
+    ],
+    "Lorenca-Q202444": [
+        "http://www.wikidata.org/entity/Q118975839",
+        "http://www.wikidata.org/entity/Q3836844",
+        "http://www.wikidata.org/entity/Q857583",
+        "http://www.wikidata.org/entity/Q96477906"
+    ],
+    "de Toro-Q101352": [
+        "http://www.wikidata.org/entity/Q75113212"
+    ],
+    "Arias-Q202444": [
+        "http://www.wikidata.org/entity/Q111039330"
+    ],
+    "Yanes-Q101352": [
+        "http://www.wikidata.org/entity/Q16888520"
+    ],
+    "Sanchéz-Q101352": [
+        "http://www.wikidata.org/entity/Q28912875",
+        "http://www.wikidata.org/entity/Q37479856",
+        "http://www.wikidata.org/entity/Q56791684"
+    ],
+    "Luis-Q202444": [
+        "http://www.wikidata.org/entity/Q2598693"
+    ],
+    "Gocona: female given name-Q202444": [
+        "http://www.wikidata.org/entity/Q104622017",
+        "http://www.wikidata.org/entity/Q107907331",
+        "http://www.wikidata.org/entity/Q115909130",
+        "http://www.wikidata.org/entity/Q116774276",
+        "http://www.wikidata.org/entity/Q122232026",
+        "http://www.wikidata.org/entity/Q123580197",
+        "http://www.wikidata.org/entity/Q123848422",
+        "http://www.wikidata.org/entity/Q124449019",
+        "http://www.wikidata.org/entity/Q125942422",
+        "http://www.wikidata.org/entity/Q126176865",
+        "http://www.wikidata.org/entity/Q126324960",
+        "http://www.wikidata.org/entity/Q12790058",
+        "http://www.wikidata.org/entity/Q12799165",
+        "http://www.wikidata.org/entity/Q18760895",
+        "http://www.wikidata.org/entity/Q18760781",
+        "http://www.wikidata.org/entity/Q19772959",
+        "http://www.wikidata.org/entity/Q21142998",
+        "http://www.wikidata.org/entity/Q21143326",
+        "http://www.wikidata.org/entity/Q21146873",
+        "http://www.wikidata.org/entity/Q30127950",
+        "http://www.wikidata.org/entity/Q30670150",
+        "http://www.wikidata.org/entity/Q3693932",
+        "http://www.wikidata.org/entity/Q4147149",
+        "http://www.wikidata.org/entity/Q43381527",
+        "http://www.wikidata.org/entity/Q56809348",
+        "http://www.wikidata.org/entity/Q63725980",
+        "http://www.wikidata.org/entity/Q98669279"
+    ],
+    "Alberto-Q202444": [
+        "http://www.wikidata.org/entity/Q16799105"
+    ],
+    "Giovanni-Q202444": [
+        "http://www.wikidata.org/entity/Q1158906"
+    ],
+    "Martinibus: female given name-Q202444": [
+        "http://www.wikidata.org/entity/Q28174114"
+    ],
+    "Orraca: female given name-Q202444": [
+        "http://www.wikidata.org/entity/Q16619921"
+    ],
+    "Alías-Q101352": [
+        "http://www.wikidata.org/entity/Q122974984"
+    ],
+    "Luques-Q202444": [
+        "http://www.wikidata.org/entity/Q88542404"
+    ],
+    "Mayor: female given name-Q202444": [
+        "http://www.wikidata.org/entity/Q44687528"
+    ],
+    "José-Q202444": [
+        "http://www.wikidata.org/entity/Q2190619",
+        "http://www.wikidata.org/entity/Q29043256",
+        "http://www.wikidata.org/entity/Q29043257",
+        "http://www.wikidata.org/entity/Q66827836"
+    ],
+    "Iohano-Q202444": [
+        "http://www.wikidata.org/entity/Q108709492",
+        "http://www.wikidata.org/entity/Q10989273",
+        "http://www.wikidata.org/entity/Q110289081",
+        "http://www.wikidata.org/entity/Q110646844",
+        "http://www.wikidata.org/entity/Q110921063",
+        "http://www.wikidata.org/entity/Q11122389",
+        "http://www.wikidata.org/entity/Q113646638",
+        "http://www.wikidata.org/entity/Q113656606",
+        "http://www.wikidata.org/entity/Q113690505",
+        "http://www.wikidata.org/entity/Q115913679",
+        "http://www.wikidata.org/entity/Q122215409",
+        "http://www.wikidata.org/entity/Q123593050",
+        "http://www.wikidata.org/entity/Q126019670",
+        "http://www.wikidata.org/entity/Q126176861",
+        "http://www.wikidata.org/entity/Q16566853",
+        "http://www.wikidata.org/entity/Q17125945",
+        "http://www.wikidata.org/entity/Q18182625",
+        "http://www.wikidata.org/entity/Q20002173",
+        "http://www.wikidata.org/entity/Q21141878",
+        "http://www.wikidata.org/entity/Q21141911",
+        "http://www.wikidata.org/entity/Q2162146",
+        "http://www.wikidata.org/entity/Q23197767",
+        "http://www.wikidata.org/entity/Q3319095",
+        "http://www.wikidata.org/entity/Q56797772",
+        "http://www.wikidata.org/entity/Q58525724",
+        "http://www.wikidata.org/entity/Q60617576",
+        "http://www.wikidata.org/entity/Q6061892",
+        "http://www.wikidata.org/entity/Q608366",
+        "http://www.wikidata.org/entity/Q61050364",
+        "http://www.wikidata.org/entity/Q65967420",
+        "http://www.wikidata.org/entity/Q8054435",
+        "http://www.wikidata.org/entity/Q80928258",
+        "http://www.wikidata.org/entity/Q83345393",
+        "http://www.wikidata.org/entity/Q91918576",
+        "http://www.wikidata.org/entity/Q931093",
+        "http://www.wikidata.org/entity/Q96652225",
+        "http://www.wikidata.org/entity/Q96656416",
+        "http://www.wikidata.org/entity/Q96675661"
+    ],
+    "Jean-Q202444": [
+        "http://www.wikidata.org/entity/Q4160311",
+        "http://www.wikidata.org/entity/Q7521081"
+    ],
+    "Robert-Q202444": [
+        "http://www.wikidata.org/entity/Q22569259",
+        "http://www.wikidata.org/entity/Q4927937"
+    ],
+    "Ioh-Q202444": [
+        "http://www.wikidata.org/entity/Q104621080",
+        "http://www.wikidata.org/entity/Q1671988"
+    ],
+    "Alvaro-Q202444": [
+        "http://www.wikidata.org/entity/Q19869019",
+        "http://www.wikidata.org/entity/Q448135"
+    ],
+    "Peter-Q202444": [
+        "http://www.wikidata.org/entity/Q2793400"
+    ],
+    "Suero-Q202444": [
+        "http://www.wikidata.org/entity/Q36151970"
+    ],
+    "Garçia-Q101352": [
+        "http://www.wikidata.org/entity/Q111590233",
+        "http://www.wikidata.org/entity/Q29014547",
+        "http://www.wikidata.org/entity/Q36933038",
+        "http://www.wikidata.org/entity/Q36934469",
+        "http://www.wikidata.org/entity/Q37506453",
+        "http://www.wikidata.org/entity/Q37506225",
+        "http://www.wikidata.org/entity/Q37512722",
+        "http://www.wikidata.org/entity/Q37553674"
+    ],
+    "Sanctiago-Q101352": [
+        "http://www.wikidata.org/entity/Q16882643"
+    ],
+    "Estevan-Q101352": [
+        "http://www.wikidata.org/entity/Q37064358"
+    ],
+    "Fernández-Q202444": [
+        "http://www.wikidata.org/entity/Q110701195"
+    ],
+    "Paul-Q202444": [
+        "http://www.wikidata.org/entity/Q4925623"
+    ],
+    "Iohon-Q202444": [
+        "http://www.wikidata.org/entity/Q101427686",
+        "http://www.wikidata.org/entity/Q100354523",
+        "http://www.wikidata.org/entity/Q104431130",
+        "http://www.wikidata.org/entity/Q104552334",
+        "http://www.wikidata.org/entity/Q106646295",
+        "http://www.wikidata.org/entity/Q106869419",
+        "http://www.wikidata.org/entity/Q106978802",
+        "http://www.wikidata.org/entity/Q1098819",
+        "http://www.wikidata.org/entity/Q10989273",
+        "http://www.wikidata.org/entity/Q110207961",
+        "http://www.wikidata.org/entity/Q110289081",
+        "http://www.wikidata.org/entity/Q110644100",
+        "http://www.wikidata.org/entity/Q110646844",
+        "http://www.wikidata.org/entity/Q110821159",
+        "http://www.wikidata.org/entity/Q110843029",
+        "http://www.wikidata.org/entity/Q111456793",
+        "http://www.wikidata.org/entity/Q112127251",
+        "http://www.wikidata.org/entity/Q112628278",
+        "http://www.wikidata.org/entity/Q113656606",
+        "http://www.wikidata.org/entity/Q113988643",
+        "http://www.wikidata.org/entity/Q114918025",
+        "http://www.wikidata.org/entity/Q115913679",
+        "http://www.wikidata.org/entity/Q116753865",
+        "http://www.wikidata.org/entity/Q122215409",
+        "http://www.wikidata.org/entity/Q123537065",
+        "http://www.wikidata.org/entity/Q123562018",
+        "http://www.wikidata.org/entity/Q123820268",
+        "http://www.wikidata.org/entity/Q124433228",
+        "http://www.wikidata.org/entity/Q125764417",
+        "http://www.wikidata.org/entity/Q126286188",
+        "http://www.wikidata.org/entity/Q16291739",
+        "http://www.wikidata.org/entity/Q16550556",
+        "http://www.wikidata.org/entity/Q1657919",
+        "http://www.wikidata.org/entity/Q1671988",
+        "http://www.wikidata.org/entity/Q17125945",
+        "http://www.wikidata.org/entity/Q18546250",
+        "http://www.wikidata.org/entity/Q19970353",
+        "http://www.wikidata.org/entity/Q20002173",
+        "http://www.wikidata.org/entity/Q20972526",
+        "http://www.wikidata.org/entity/Q20991852",
+        "http://www.wikidata.org/entity/Q21019341",
+        "http://www.wikidata.org/entity/Q2162146",
+        "http://www.wikidata.org/entity/Q36637049",
+        "http://www.wikidata.org/entity/Q42988236",
+        "http://www.wikidata.org/entity/Q48723764",
+        "http://www.wikidata.org/entity/Q4925477",
+        "http://www.wikidata.org/entity/Q50873638",
+        "http://www.wikidata.org/entity/Q60617576",
+        "http://www.wikidata.org/entity/Q60793582",
+        "http://www.wikidata.org/entity/Q61050364",
+        "http://www.wikidata.org/entity/Q61749720",
+        "http://www.wikidata.org/entity/Q62010883",
+        "http://www.wikidata.org/entity/Q6433329",
+        "http://www.wikidata.org/entity/Q66734435",
+        "http://www.wikidata.org/entity/Q69509403",
+        "http://www.wikidata.org/entity/Q69523517",
+        "http://www.wikidata.org/entity/Q8054435",
+        "http://www.wikidata.org/entity/Q80949353",
+        "http://www.wikidata.org/entity/Q83961860",
+        "http://www.wikidata.org/entity/Q91918576",
+        "http://www.wikidata.org/entity/Q931093",
+        "http://www.wikidata.org/entity/Q96478788",
+        "http://www.wikidata.org/entity/Q96650593",
+        "http://www.wikidata.org/entity/Q96651305",
+        "http://www.wikidata.org/entity/Q96651514",
+        "http://www.wikidata.org/entity/Q96651515",
+        "http://www.wikidata.org/entity/Q96651837",
+        "http://www.wikidata.org/entity/Q96652006",
+        "http://www.wikidata.org/entity/Q96652127",
+        "http://www.wikidata.org/entity/Q96652924",
+        "http://www.wikidata.org/entity/Q96653017",
+        "http://www.wikidata.org/entity/Q96654638",
+        "http://www.wikidata.org/entity/Q96654643",
+        "http://www.wikidata.org/entity/Q96656016",
+        "http://www.wikidata.org/entity/Q96656024",
+        "http://www.wikidata.org/entity/Q96656120",
+        "http://www.wikidata.org/entity/Q96656419",
+        "http://www.wikidata.org/entity/Q96656420",
+        "http://www.wikidata.org/entity/Q96656440",
+        "http://www.wikidata.org/entity/Q96675437",
+        "http://www.wikidata.org/entity/Q96675661",
+        "http://www.wikidata.org/entity/Q96675909",
+        "http://www.wikidata.org/entity/Q96676122",
+        "http://www.wikidata.org/entity/Q96676123",
+        "http://www.wikidata.org/entity/Q96676127",
+        "http://www.wikidata.org/entity/Q97487786",
+        "http://www.wikidata.org/entity/Q97751627",
+        "http://www.wikidata.org/entity/Q97961666",
+        "http://www.wikidata.org/entity/Q98545510",
+        "http://www.wikidata.org/entity/Q98777259"
+    ],
+    "Aleksandr-Q202444": [
+        "http://www.wikidata.org/entity/Q17501806",
+        "http://www.wikidata.org/entity/Q45087221"
+    ],
+    "Iohan: male given name ()-Q202444": [
+        "http://www.wikidata.org/entity/Q10989273",
+        "http://www.wikidata.org/entity/Q110289081",
+        "http://www.wikidata.org/entity/Q110646844",
+        "http://www.wikidata.org/entity/Q113656606",
+        "http://www.wikidata.org/entity/Q115913679",
+        "http://www.wikidata.org/entity/Q122215409",
+        "http://www.wikidata.org/entity/Q20002173",
+        "http://www.wikidata.org/entity/Q2162146",
+        "http://www.wikidata.org/entity/Q60617576",
+        "http://www.wikidata.org/entity/Q61050364",
+        "http://www.wikidata.org/entity/Q8054435",
+        "http://www.wikidata.org/entity/Q91918576",
+        "http://www.wikidata.org/entity/Q931093",
+        "http://www.wikidata.org/entity/Q96675661"
+    ],
+    "Goncala-Q202444": [
+        "http://www.wikidata.org/entity/Q18699663",
+        "http://www.wikidata.org/entity/Q19901997",
+        "http://www.wikidata.org/entity/Q21714761",
+        "http://www.wikidata.org/entity/Q57544475",
+        "http://www.wikidata.org/entity/Q61915820"
+    ]
+}
