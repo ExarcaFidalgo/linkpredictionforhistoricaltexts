@@ -1,0 +1,16 @@
+PREFIX wd: <https://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <https://medievalcharterskg.wikibase.cloud/prop/direct/>
+
+SELECT ?deathLabel ?time WHERE {
+  wd:Q1069 wdt:P35 ?death.
+  ?death wdt:P46 ?event.
+  ?event wdt:P6 ?timespan.
+  ?timespan wdt:P32 ?time.
+          
+  
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" .
+  }
+}
+ORDER BY ASC(?time)
+LIMIT 1
