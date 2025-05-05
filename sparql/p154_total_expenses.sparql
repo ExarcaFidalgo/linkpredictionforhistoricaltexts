@@ -1,0 +1,16 @@
+PREFIX wd: <https://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <https://medievalcharterskg.wikibase.cloud/prop/direct/>
+
+SELECT ?paymentTypeLabel (SUM(?value) AS ?totalValue) WHERE {
+  ?purchase wdt:P17 wd:Q1057 .
+  ?purchase wdt:P43 ?payment .
+  ?payment wdt:P33 ?value .
+  ?payment wdt:P44 ?paymentType .
+  
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" .
+    ?paymentType rdfs:label ?paymentTypeLabel .
+  }
+}
+GROUP BY ?paymentType ?paymentTypeLabel
+ORDER BY DESC(?totalValue)
