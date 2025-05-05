@@ -1,0 +1,17 @@
+PREFIX wd: <https://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <https://medievalcharterskg.wikibase.cloud/prop/direct/>
+PREFIX p: <https://medievalcharterskg.wikibase.cloud/prop/> # Namespace for statements
+PREFIX ps: <https://medievalcharterskg.wikibase.cloud/prop/statement/> # Namespace for statement values
+PREFIX pq: <https://medievalcharterskg.wikibase.cloud/prop/qualifier/> # Namespace for qualifiers
+
+SELECT ?nativelabel (COUNT(?qualifier) AS ?count) WHERE {
+  wd:Q781 p:P69 ?statement.
+  ?statement ps:P69 ?nativelabel.
+  ?statement pq:P28 ?qualifier.
+  
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" .
+  }
+}
+GROUP BY ?nativelabel
+ORDER BY DESC(?count)
