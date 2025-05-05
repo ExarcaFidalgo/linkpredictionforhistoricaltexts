@@ -2,7 +2,7 @@ PREFIX wb: <https://medievalcharterskg.wikibase.cloud/entity/>
 PREFIX wbt: <https://medievalcharterskg.wikibase.cloud/prop/direct/>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-
+#defaultView:Map
 SELECT ?personLabel ?entityLabel ?coord_raw ?rgb   WHERE {
   {
     ?person wbt:P55 ?entity.
