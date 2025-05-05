@@ -1,0 +1,19 @@
+PREFIX wd: <https://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <https://medievalcharterskg.wikibase.cloud/prop/direct/> 
+PREFIX P: <https://medievalcharterskg.wikibase.cloud/prop/>          
+PREFIX ps: <https://medievalcharterskg.wikibase.cloud/prop/statement/> 
+PREFIX prov: <http://www.w3.org/ns/prov#>                              
+PREFIX pr: <https://medievalcharterskg.wikibase.cloud/prop/reference/>
+
+SELECT ?witnessLabel WHERE {
+  wd:Q1913 P:P12 ?statement .
+
+  ?statement ps:P12 ?witness .
+  ?statement prov:wasDerivedFrom ?reference .
+  ?reference pr:P63 wd:Q55 .
+
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en" .
+    ?witness rdfs:label ?witnessLabel .
+  }
+}
