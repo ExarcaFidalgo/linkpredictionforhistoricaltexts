@@ -3,20 +3,23 @@ PREFIX wbt: <https://medievalcharterskg.wikibase.cloud/prop/direct/>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 #defaultView:Map
-SELECT ?personLabel ?entityLabel ?coord_raw ?rgb   WHERE {
+SELECT ?personLabel ?entityLabel ?coord_raw ?label ?rgb   WHERE {
   {
     ?person wbt:P55 ?entity.
     ?entity wbt:P2 ?wdEntity.
-    BIND("00a2ff" AS ?rgb)  # Color para P55
+    BIND("00a2ff" AS ?rgb) 
+    BIND("Residence" AS ?label) 
   } UNION {
     ?person wbt:P53 ?entity.
     ?entity wbt:P2 ?wdEntity.
-    BIND("ff0f00" AS ?rgb)   # Color para P53
+    BIND("ff0f00" AS ?rgb)  
+    BIND("Work location" AS ?label) 
   } UNION {
     ?person wbt:P65 ?office.
     ?office wbt:P64 ?entity.
     ?entity wbt:P2 ?wdEntity.
-    BIND("11a400" AS ?rgb) # Color para P64
+    BIND("11a400" AS ?rgb)
+    BIND("Holds public office with jurisdiction in" AS ?label) 
   }
   
   # Etiquetas locales
