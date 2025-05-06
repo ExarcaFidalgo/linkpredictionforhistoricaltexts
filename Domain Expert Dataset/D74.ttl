@@ -1,0 +1,140 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D74P17 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Alfonso de Tras Santiso".
+
+:D74P83 a crm:E21_Person ;
+    :givenName "Suer" ;
+    :familyName "Alfonso".
+
+:D74P103 a crm:E21_Person ;
+    :givenName "María" ;
+    :familyName "Álvarez";
+	:spouse :D74P154;
+	:residence :Oviedo .
+
+:D74P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D74Oc1 ;
+	:spouse :D74P103;
+	:residence :Oviedo .
+	
+:D74Oc1 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D74P223 a crm:E21_Person ;
+    :givenName "Mayor" ;
+    :familyName "Fernández";
+	:spouse :D74P538.
+
+:D74P224 a crm:E21_Person ;
+    :givenName "Mayor" ;
+    :familyName "Fernández";
+	:father :D74P538;
+	:relative_grandfather :D74P394;
+	:relative_grandmother :D74P455.
+
+:D74P394 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Martínez";
+	:relative_grandchild :D74P224, :D74P563.
+
+:D74P451 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "Peláez de Pravia".
+
+:D74P455 a crm:E21_Person ;
+    :givenName "María" ;
+    :familyName "Peláez";
+	:relative_grandchild :D74P224, :D74P563.
+
+:D74P525 a crm:E21_Person ;
+    :givenName "García" ;
+    :familyName "Pérez".
+
+:D74P531 a crm:E21_Person ;
+    :givenName "Giral" ;
+    :familyName "Pérez";
+	:occupation :D74Oc2.
+	
+:D74Oc2 a :Occupation;
+	crm:P1_is_identified_by "Notario".
+
+:D74P536 a crm:E21_Person ;
+    :givenName "Inés" ;
+    :familyName "Pérez".
+
+:D74P538 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez" ;
+	:spouse :D74P223;
+    :child :D74P563, :D74P224 .
+
+:D74P563 a crm:E21_Person ;
+    :givenName "María" ;
+    :familyName "Pérez";
+	:father :D74P538;
+	:relative_grandfather :D74P394;
+	:relative_grandmother :D74P455.
+
+:D74P617 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "Rodríguez".
+
+:D74P690 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "Suárez";
+	:occupation :D74Oc3.
+	
+:D74Oc3 a :Occupation;
+	crm:P1_is_identified_by "Escribano".
+
+:D74P730 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Suárez de Castiello".
+
+:La_Vega a crm:E53_Place ;
+    crm:P1_is_identified_by "La Vega" .
+
+:Oviedo a crm:E53_Place ;
+    crm:P1_is_identified_by "Oviedo" .
+
+:Vega_de_Rodrigo_Abril a crm:E53_Place ;
+    crm:P1_is_identified_by "Vega de Rodrigo Abril".
+
+:D74 a crm:E96_Purchase;
+  crm:P2_has_type :Sale;
+  crm:P4_has_time-span :Within_1343-09-20;
+  crm:P70i_is_documented_in :AMSPO1632;
+  crm:P23_transferred_title_from :D74P224, :D74P563;
+  crm:P22_transferred_title_to :D74P154, :D74P103;
+  crm:P24_transferred_title_of :D74_Properties;
+  crm:P179_had_sales_price :D74payment;
+  crm:P14_carried_out_by :D74P17, :D74P451, :D74P730 ;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1343-09-20 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1343-09-20"^^xsd:date.
+  
+:Sale a crm:E55_Type;
+   crm:P1_is_identified_by "Sale" .
+        
+:AMSPO1632  a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1632" .
+    
+:D74_Properties a crm:E27_Site;
+	crm:P53_has_former_or_current_location :La_Vega, :Vega_de_Rodrigo_Abril.
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D74payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 25;
+	crm:P180_has_currency :Maravedi.
+	
+:Maravedi a crm:E98_Currency ;
+  crm:P1_is_identified_by "Maravedí" .

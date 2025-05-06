@@ -1,0 +1,167 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D31P12 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Alfonso".
+
+:D31P64 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Alfonso" ;
+	:residence :Borondes;
+    :father :D31P737;
+    :mother :D31P216;
+    :sibling :D31P81.
+
+:D31P76 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Alfonso del Pienso".
+
+:D31P81 a crm:E21_Person ;
+    :givenName "Suer" ;
+    :familyName "Alfonso" ;
+    :sibling :D31P64.
+
+:D31P82 a crm:E21_Person ;
+    :givenName "Suer" ;
+    :familyName "Alfonso";
+	:occupation :D31Oc1;
+	:employer :D32PB1.
+	
+:D31Oc1 a :Occupation;
+	crm:P1_is_identified_by "Hombre".
+	
+:D32PB1 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Alfonso";
+	:occupation :D31Oc2.
+	
+:D31Oc2 a :Occupation;
+	crm:P1_is_identified_by "Tendero".
+
+:D31P93 a crm:E21_Person ;
+    :givenName "Diego" ;
+    :familyName "Álvarez de Borondes".
+
+:D31P103 a crm:E21_Person ;
+    :givenName "María" ;
+    :familyName "Álvarez";
+	:spouse :D31P154;
+	:residence :Oviedo .
+
+:D31P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D31Oc3 ;
+	:residence :Oviedo ;
+    :spouse :D31P103 .
+	
+:D31Oc3 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D31P165 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández de Vascones".
+
+:D31P216 a crm:E21_Person ;
+    :givenName "María" ;
+    :familyName "Fernández";
+	:child :D31P64.
+
+:D31P313 a crm:E21_Person ;
+    :givenName "Menen" ;
+    :familyName "González de Bercio".
+
+:D31P376 a crm:E21_Person ;
+    :givenName "Diego" ;
+    :familyName "Martínez";
+	:position_held :D31Oc4.
+	
+:D31Oc4 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en Oviedo";
+	:applies_to_jurisdiction :Oviedo.
+
+:D31P543 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez";
+	:occupation :D31Oc5.
+	
+:D31Oc5 a :Occupation;
+	crm:P1_is_identified_by "Escribano".
+
+:D31P551 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez de Borondes".
+
+:D31P564 a crm:E21_Person ;
+    :givenName "María" ;
+    :familyName "Pérez";
+	:relative_cousin :D31P64.
+
+:D31P655 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Rodríguez de Vaqueros".
+
+:D31P666 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "Sánchez".
+
+:D31P667 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "Sánchez de Petenno".
+
+:D31P689 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "Suárez".
+
+:D31P737 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Yáñez" ;
+	:child :D31P64.
+
+:Oviedo a crm:E53_Place ;
+    crm:P1_is_identified_by "Oviedo" .
+
+:Borondes a crm:E53_Place ;
+    crm:P1_is_identified_by "Borondes" .
+
+:Sienra a crm:E53_Place ;
+    crm:P1_is_identified_by "Sienra" .
+
+:Eres_ería a crm:E53_Place ;
+    crm:P1_is_identified_by "Ería de Eres" .	
+	
+:D31 a crm:E96_Purchase;
+  crm:P2_has_type :Sale;
+  crm:P4_has_time-span :Within_1332-11-22;
+  crm:P70i_is_documented_in :AMSPO1589;
+  crm:P23_transferred_title_from :D31P64;
+  crm:P22_transferred_title_to :D31P154, :D31P103;
+  crm:P24_transferred_title_of :D31_Properties ;
+  crm:P179_had_sales_price :D31payment;
+  crm:P14_carried_out_by :D31P12, :D31P76, :D31P82, :D31P655;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1332-11-22 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1332-11-22"^^xsd:date.
+  
+:Sale a crm:E55_Type;
+   crm:P1_is_identified_by "Sale" .
+        
+:AMSPO1589 a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1589" .
+    
+:D31_Properties a crm:E27_Site;
+	crm:P53_has_former_or_current_location :Eres_ería, :Sienra.
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D31payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 36;
+	crm:P180_has_currency :Maravedi.
+	
+:Maravedi a crm:E98_Currency ;
+  crm:P1_is_identified_by "Maravedí" .
+

@@ -1,0 +1,118 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D49P16 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Alfonso de Ondes".
+
+:D49P74 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Alfonso";
+	:residence :Ondes;
+	:father :D49PB1.
+	
+:D49PB1 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Alfonso";
+    :child :D49P74 .
+
+:D49P103 a crm:E21_Person ;
+    :givenName "María" ;
+    :familyName "Álvarez";
+	:spouse :D49P154.
+
+:D49P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D49Oc1 ;;
+    :relative_grandfather :D49P600 ;
+    :spouse :D49P103 ;
+	:residence :Oviedo .
+	
+:D49Oc1 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D49P201 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Fernández";
+	:occupation :D49Oc2.
+	
+:D49Oc2 a :Occupation;
+	crm:P1_is_identified_by "Notario".
+
+:D49P233 a crm:E21_Person ;
+    :givenName "Nicolás" ;
+    :familyName "Fernández";
+	:position_held :D49Oc3.
+	
+:D49Oc3 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en Oviedo";
+	:applies_to_jurisdiction :Oviedo.
+
+:D49P291 a crm:E21_Person ;
+    :givenName "Suer" ;
+    :familyName "García";
+	:occupation :D49Oc4;
+	:work_location :San_Martino.
+	
+:D49Oc4 a :Occupation;
+	crm:P1_is_identified_by "Capellán".
+
+:D49P539 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez";
+	:occupation :D49Oc5.
+	
+:D49Oc5 a :Occupation;
+	crm:P1_is_identified_by "Carnicero".
+
+:D49P600 a crm:E21_Person ;
+    :givenName "Suer" ;
+    :familyName "Pérez";
+	:relative_grandchild :D49P154.
+	
+:Ondes a crm:E53_Place ;
+    crm:P1_is_identified_by "Ondes" .
+	
+:Monteagudo a crm:E53_Place ;
+    crm:P1_is_identified_by "Monteagudo" .
+
+:Oviedo a crm:E53_Place ;
+    crm:P1_is_identified_by "Oviedo" .
+	
+:San_Martino a crm:E53_Place ;
+    crm:P1_is_identified_by "San Martino de la Carrera" .
+
+:D49 a crm:E96_Purchase;
+  crm:P2_has_type :Lease; 
+  crm:P4_has_time-span :Within_1335-02-27;
+  crm:P70i_is_documented_in :AMSPO306; 
+  crm:P23_transferred_title_from :D49P154, :D49P103;
+  crm:P22_transferred_title_to :D49P74;
+  crm:P24_transferred_title_of :D49_Properties;
+  crm:P179_had_sales_price :D49payment;
+  crm:P14_carried_out_by :D49P16, :D49P201, :D49P291, :D49P539 ;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1335-02-27 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1335-02-27"^^xsd:date.
+  
+:Lease a crm:E55_Type;
+   crm:P1_is_identified_by "Lease" .
+        
+:AMSPO306  a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSP, nº 306" .
+    
+:D49_Properties a crm:E27_Site;
+	crm:P53_has_former_or_current_location :Ondes, :Monteagudo.
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D49payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 7;
+	crm:P180_has_currency :Celemites.
+	
+:Celemites a crm:E98_Currency ;
+  crm:P1_is_identified_by "Celemites de escanda anuales" .

@@ -1,0 +1,128 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D42P65 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Alfonso";
+	:residence :Borondes.
+
+:D42P83 a crm:E21_Person ;
+    :givenName "Suer" ;
+    :familyName "Alfonso".
+
+:D42P93 a crm:E21_Person ;
+    :givenName "Diego" ;
+    :familyName "Álvarez de Borondes".
+
+:D42P123 a crm:E21_Person ;
+    :givenName "Fernando" ;
+    :familyName "Blanco".
+
+:D42P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D42Oc1 ;
+	:residence :Oviedo .
+	
+:D42Oc1 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D42P220 a crm:E21_Person ;
+    :givenName "Martín" ;
+    :familyName "Fernández".
+
+:D42P233 a crm:E21_Person ;
+    :givenName "Nicolás" ;
+    :familyName "Fernández";
+	:position_held :D42Oc2.
+	
+:D42Oc2 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en Oviedo";
+	:applies_to_jurisdiction :Oviedo.
+
+:D42P234 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Fernández";
+	:nickname "Pedro Sardina".
+
+:D42P257 a crm:E21_Person ;
+    :givenName "Urraca" ;
+    :familyName "Fernández";
+    :spouse :D42P729 .
+
+:D42P395 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Martínez";
+	:occupation :D42Oc3.
+	
+:D42Oc3 a :Occupation;
+	crm:P1_is_identified_by "Alfageme".
+
+:D42P472 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Pérez";
+	:occupation :D42Oc4.
+	
+:D42Oc4 a :Occupation;
+	crm:P1_is_identified_by "Zapatero".
+
+:D42P514 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Pérez";
+	:occupation :D42Oc5.
+	
+:D42Oc5 a :Occupation;
+	crm:P1_is_identified_by "Zapatero".
+
+:D42P525 a crm:E21_Person ;
+    :givenName "García" ;
+    :familyName "Pérez".
+
+:D42P537 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez";
+	:occupation :D42Oc6.
+	
+:D42Oc6 a :Occupation;
+	crm:P1_is_identified_by "Mercader".
+
+:D42P549 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez".
+
+:D42P692 a crm:E21_Person ;
+    :givenName "Diego" ;
+    :familyName "Suárez de Borondes de Suso".
+
+:D42P729 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Suárez" ;
+	:residence :Borondes;
+    :spouse :D42P257 . 
+	
+:Borondes a crm:E53_Place ;
+    crm:P1_is_identified_by "Borondes" .
+
+:Oviedo a crm:E53_Place ;
+    crm:P1_is_identified_by "Oviedo" .
+	
+:D42 a crm:E7_Activity;
+  crm:P2_has_type :Testimony; 
+  crm:P4_has_time-span :Within_1333-08-02;
+  crm:P70i_is_documented_in :AMSPO1595;
+  crm:P14_carried_out_by :D42P395, :D42P472, :D42P514, :D42P549;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1333-08-02 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1333-08-02"^^xsd:date.
+  
+:Testimony a crm:E55_Type;
+   crm:P1_is_identified_by "Testimony" .
+        
+:AMSPO1595  a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1595" .
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+

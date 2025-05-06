@@ -1,0 +1,97 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D20P1 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :regnalOrdinal "XI";
+	:position_held :D20Oc1.
+	
+:D20Oc1 a :PublicOffice;
+	crm:P1_is_identified_by "Rey de Castilla y León";
+	:applies_to_jurisdiction :Castilla, :León.
+
+:D20P15 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Alfonso Chirildos".
+
+:D20P48 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Alfonso";
+	:occupation :D20Oc2.
+	
+:D20Oc2 a :Occupation;
+	crm:P1_is_identified_by "Escribano".
+
+:D20P147 a crm:E21_Person ;
+	:title "Don";
+    :givenName "Juan";
+	:position_held :D20Oc3.
+	
+:D20Oc3 a :PublicOffice;
+	crm:P1_is_identified_by "Obispo de Oviedo";
+	:applies_to_jurisdiction :Oviedo.
+
+:D20P430 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Nicolás";
+	:position_held :D20Oc4.
+	
+:D20Oc4 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en Oviedo";
+	:applies_to_jurisdiction :Oviedo.
+
+:D20P543 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez";
+	:occupation :D20Oc5.
+	
+:D20Oc5 a :Occupation;
+	crm:P1_is_identified_by "Escribano".
+
+:D20P646 a crm:E21_Person ;
+    :givenName "Matías" ;
+    :familyName "Rodríguez";
+	:occupation :D20Oc6.
+	
+:D20Oc6 a :Occupation;
+	crm:P1_is_identified_by "Alfayate".
+	
+:Castilla a crm:E53_Place ;
+    crm:P1_is_identified_by "Castilla" .
+	
+:León a crm:E53_Place ;
+    crm:P1_is_identified_by "León" .
+	
+:Oviedo a crm:E53_Place ;
+    crm:P1_is_identified_by "Oviedo" .
+	
+:Borondes a crm:E53_Place ;
+    crm:P1_is_identified_by "Borondes" .
+	
+:D20 a crm:E96_Purchase;
+  crm:P2_has_type :Sale;
+  crm:P4_has_time-span :Within_1329-06-18;
+  crm:P70i_is_documented_in :AMSPO1578;
+  crm:P179_had_sales_price :D20payment;
+  crm:P14_carried_out_by :D20P48, :D20P543, :D20P15, :D20P646;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1329-06-18 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1329-06-18"^^xsd:date.
+  
+:Sale a crm:E55_Type;
+   crm:P1_is_identified_by "Sale" .
+        
+:AMSPO1578 a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1578" .
+  
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D20payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 300;
+	crm:P180_has_currency :Maravedi.
+	
+:Maravedi a crm:E98_Currency ;
+  crm:P1_is_identified_by "Maravedí" .
