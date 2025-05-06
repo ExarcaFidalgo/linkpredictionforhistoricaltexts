@@ -1,0 +1,111 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D103P53 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Alfonso";
+	:position_held :D103Oc1.
+	
+:D103Oc1 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en Oviedo";
+	:applies_to_jurisdiction :Oviedo.
+
+:D103P139 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Díaz";
+	:occupation :D103Oc2.
+	
+:D103Oc2 a :Occupation;
+	crm:P1_is_identified_by "Mercader".
+
+:D103P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D103Oc3 ;
+	:residence :Oviedo .
+	
+:D103Oc3 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D103P388 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Martínez".
+
+:D103P404 a crm:E21_Person ;
+    :givenName "Rodrigo" ;
+    :familyName "Martínez";
+	:nickname "Contrafecho".
+
+:D103P512 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Pérez";
+	:nickname "Fernán Blanco";
+	:residence :Borondes.
+
+:D103P547 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez";
+	:nickname "Juan Saco".
+
+:D103P641 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Rodríguez";
+	:occupation :D103Oc4.
+	
+:D103Oc4 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D103P661 a crm:E21_Person ;
+    :givenName "Suer" ;
+    :familyName "Rodríguez de Borondes".
+
+:D103P689 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "Suárez".
+
+:Oviedo a crm:E53_Place ;
+    crm:P1_is_identified_by "Oviedo" .
+
+:Pago_de_Lavazes a crm:E53_Place ;
+    crm:P1_is_identified_by "Pago de Lavazes" .
+
+:Eres_ería a crm:E53_Place ;
+    crm:P1_is_identified_by "Eres, ería" .
+
+:Borondes a crm:E53_Place ;
+    crm:P1_is_identified_by "Borondes" .
+
+:D103 a crm:E96_Purchase;
+  crm:P2_has_type :Sale;
+  crm:P4_has_time-span :Within_1355-09-06;
+  crm:P70i_is_documented_in :AMSPO1350;
+  crm:P23_transferred_title_from :D103P512;
+  crm:P22_transferred_title_to :D103P154;
+  crm:P24_transferred_title_of :D103_Properties;
+  crm:P179_had_sales_price :D103payment;
+  crm:P14_carried_out_by :D103P139, :D103P388, :D103P547 ;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1355-09-06 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1355-09-06"^^xsd:date.
+  
+:Sale a crm:E55_Type;
+   crm:P1_is_identified_by "Sale" .
+        
+:AMSPO1350  a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1350" .
+    
+:D103_Properties a crm:E27_Site;
+	crm:P53_has_former_or_current_location :Eres_ería, :Pago_de_Lavazes.
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D103payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 30;
+	crm:P180_has_currency :Maravedi.
+	
+:Maravedi a crm:E98_Currency ;
+  crm:P1_is_identified_by "Maravedí" .
+

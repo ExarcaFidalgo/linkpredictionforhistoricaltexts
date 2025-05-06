@@ -1,0 +1,137 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D82P59 a crm:E21_Person ;
+    :givenName "Marina" ;
+    :familyName "Alfonso de Peñaflor".
+
+:D82P79 a crm:E21_Person ;
+    :givenName "Rodrigo" ;
+    :familyName "Alfonso" ;
+    :father :D82P618 .
+
+:D82P103 a crm:E21_Person ;
+    :givenName "María" ;
+    :familyName "Álvarez";
+	:spouse :D82P154.
+
+:D82P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D82Oc1 ;
+	:spouse :D82P103;
+	:residence :Oviedo .
+	
+:D82Oc1 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D82P226 a crm:E21_Person ;
+    :givenName "Menen" ;
+    :familyName "Fernández".
+
+:D82P276 a crm:E21_Person ;
+    :givenName "Inés" ;
+    :familyName "García".
+
+:D82P319 a crm:E21_Person ;
+    :givenName "Sancha" ;
+    :familyName "González de Cenales" ;
+    :spouse :D82P351 .
+
+:D82P351 a crm:E21_Person ;
+    :givenName "Domingo" ;
+    :familyName "Juanes" ;
+    :spouse :D82P319 .
+
+:D82P359 a crm:E21_Person ;
+    :givenName "Martín" ;
+    :familyName "Juanes de Cenales";
+	:nickname "Martín Caballero".
+
+:D82P425 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Moro de Cañedo".
+
+:D82P552 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez de Cenales".
+
+:D82P618 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "Rodríguez";
+	:child :D82P79;
+	:occupation :D82Oc2;
+	:work_location :Santiago_Aces.
+	
+:D82Oc2 a :Occupation;
+	crm:P1_is_identified_by "Capellán".
+
+:D82P633 a crm:E21_Person ;
+    :givenName "Gonzalo" ;
+    :familyName "Rodríguez";
+	:position_held :D82Oc3.
+	
+:D82Oc3 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en la pobla de Grado";
+	:applies_to_jurisdiction :Grado.
+
+:D82P661 a crm:E21_Person ;
+    :givenName "Suer" ;
+    :familyName "Rodríguez de Borondes".
+
+:D82P728 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Suárez de Borondes".
+	
+:La_Endriga a crm:E53_Place ;
+    crm:P1_is_identified_by "La Endriga" .
+
+:La_Foyaca a crm:E53_Place ;
+    crm:P1_is_identified_by "La Foyaca" .
+
+:La_Pumariega a crm:E53_Place ;
+    crm:P1_is_identified_by "La Pumariega" .
+
+:Oviedo a crm:E53_Place ;
+    crm:P1_is_identified_by "Oviedo" .
+	
+:Grado a crm:E53_Place ;
+    crm:P1_is_identified_by "Grado" .
+	
+:Santiago_Aces a crm:E53_Place ;
+    crm:P1_is_identified_by "Santiago de Aces" .
+
+:D82 a crm:E96_Purchase;
+  crm:P2_has_type :Sale;
+  crm:P4_has_time-span :Within_1344-11-05;
+  crm:P70i_is_documented_in :AMSPO1639;
+  crm:P23_transferred_title_from :D82P319;
+  crm:P22_transferred_title_to :D82P154, :D82P103;
+  crm:P24_transferred_title_of :D82_Properties;
+  crm:P179_had_sales_price :D82payment;
+  crm:P14_carried_out_by :D82P79, :D82P425, :D82P618 ;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1344-11-05 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1344-11-05"^^xsd:date.
+  
+:Sale a crm:E55_Type;
+   crm:P1_is_identified_by "Sale" .
+        
+:AMSPO1639  a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1639" .
+    
+:D82_Properties a crm:E27_Site;
+	crm:P53_has_former_or_current_location :La_Pumariega, :La_Foyaca, :La_Endriga.
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D82payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 42;
+	crm:P180_has_currency :Maravedi.
+	
+:Maravedi a crm:E98_Currency ;
+  crm:P1_is_identified_by "Maravedí" .
+

@@ -1,0 +1,112 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D90P10 a crm:E21_Person ;
+    :givenName "Domingo" ;
+    :familyName "Alfonso de Ules".
+
+:D90P33 a crm:E21_Person ;
+    :givenName "Gonzalo" ;
+    :familyName "Alfonso de Ules".
+
+:D90P73 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Alfonso";
+	:occupation :D90Oc1.
+	
+:D90Oc1 a :Occupation;
+	crm:P1_is_identified_by "Escribano".
+
+:D90P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D90Oc2 ;
+	:child :D90P643;
+	:residence :Oviedo .
+	
+:D90Oc2 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D90P223 a crm:E21_Person ;
+    :givenName "Mayor" ;
+    :familyName "Fernández";
+	:spouse :D90P538 .
+
+:D90P224 a crm:E21_Person ;
+    :givenName "Mayor" ;
+    :familyName "Fernández";
+	:residence :Borondes;
+	:father :D90P538.
+
+:D90P500 a crm:E21_Person ;
+    :givenName "Bartolomé" ;
+    :familyName "Pérez";
+	:position_held :D90Oc3.
+	
+:D90Oc3 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en Oviedo";
+	:applies_to_jurisdiction :Oviedo.
+
+:D90P538 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez" ;
+    :child :D90P224 ; 
+    :spouse :D90P223 .
+
+:D90P643 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Rodríguez";
+	:father :D90P154.
+
+:D90P690 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "Suárez";
+	:occupation :D90Oc4.
+	
+:D90Oc4 a :Occupation;
+	crm:P1_is_identified_by "Escribano".
+
+:Cennales_valle a crm:E53_Place ;
+    crm:P1_is_identified_by "Cennales (valle)" .
+
+:Oviedo a crm:E53_Place ;
+    crm:P1_is_identified_by "Oviedo" .
+
+:Borondes a crm:E53_Place ;
+    crm:P1_is_identified_by "Borondes" .
+
+:D90 a crm:E96_Purchase;
+  crm:P2_has_type :Sale;
+  crm:P4_has_time-span :Within_1348-02-17;
+  crm:P70i_is_documented_in :AMSPO1654;
+  crm:P23_transferred_title_from :D90P224;
+  crm:P22_transferred_title_to :D90P154;
+  crm:P24_transferred_title_of :D90_Properties;
+  crm:P179_had_sales_price :D90payment;
+  crm:P14_carried_out_by :D90P10, :D90P33, :D90P73, :D90P643 ;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1348-02-17 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1348-02-17"^^xsd:date.
+  
+:Sale a crm:E55_Type;
+   crm:P1_is_identified_by "Sale" .
+        
+:AMSPO1654  a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1654" .
+    
+:D90_Properties a crm:E27_Site;
+	crm:P53_has_former_or_current_location :Cennales_valle.
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D90payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 3;
+	crm:P180_has_currency :Maravedi.
+	
+:Maravedi a crm:E98_Currency ;
+  crm:P1_is_identified_by "Maravedí" .
+
+

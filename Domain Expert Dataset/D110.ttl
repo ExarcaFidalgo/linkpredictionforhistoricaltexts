@@ -1,0 +1,108 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D110P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D110Oc1 ;
+	:residence :Oviedo .
+	
+:D110Oc1 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D110P175 a crm:E21_Person ;
+    :givenName "Diego" ;
+    :familyName "Fernández";
+	:occupation :D110Oc2.
+	
+:D110Oc2 a :Occupation;
+	crm:P1_is_identified_by "Escribano".
+	
+:D110P210 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Fernández de Carballal".
+
+:D110P233 a crm:E21_Person ;
+    :givenName "Nicolás" ;
+    :familyName "Fernández";
+	:position_held :D110Oc3.
+	
+:D110Oc3 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en Oviedo";
+	:applies_to_jurisdiction :Oviedo.
+
+:D110P271 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "García de Valles".
+
+:D110P371 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Martínez de Anduerga".
+
+:D110P423 a crm:E21_Person ;
+    :givenName "Aldonza" ;
+    :familyName "Morina";
+    :spouse :D110P518 ; 
+	:child :D110P583.
+
+:D110P518 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Pérez de Vascones" ;
+    :spouse :D110P423 ; 
+	:child :D110P583.
+
+:D110P583 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Pérez" ;
+	:residence :Báscones;
+    :father :D110P518 ;
+    :mother :D110P423 .
+
+:D110P688 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "Suárez".
+
+:D110P733 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Toro de Caballal".
+
+:Báscones a crm:E53_Place ;
+    crm:P1_is_identified_by "Báscones" .
+
+:Las_Cavorniosas a crm:E53_Place ;
+    crm:P1_is_identified_by "Las Cavorniosas" .
+
+:D110 a crm:E96_Purchase;
+  crm:P2_has_type :Sale;
+  crm:P4_has_time-span :Within_1359-05-05;
+  crm:P70i_is_documented_in :AMSPO1684;
+  crm:P23_transferred_title_from :D110P583;
+  crm:P22_transferred_title_to :D110P154;
+  crm:P24_transferred_title_of :D110_Properties;
+  crm:P179_had_sales_price :D110payment;
+  crm:P14_carried_out_by :D110P210, :D110P271, :D110P371, :D110P733 ;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1359-05-05 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1359-05-05"^^xsd:date.
+  
+:Sale a crm:E55_Type;
+   crm:P1_is_identified_by "Sale" .
+        
+:AMSPO1684  a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1684" .
+    
+:D110_Properties a crm:E27_Site;
+	crm:P53_has_former_or_current_location :Las_Cavorniosas.
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D110payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 35;
+	crm:P180_has_currency :Maravedi.
+	
+:Maravedi a crm:E98_Currency ;
+  crm:P1_is_identified_by "Maravedí" .
+

@@ -1,0 +1,134 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D101P72 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Alfonso";
+	:occupation :D101Oc1.
+	
+:D101Oc1 a :Occupation;
+	crm:P1_is_identified_by "Recuero".
+
+:D101P96 a crm:E21_Person ;
+    :givenName "Gutier" ;
+    :familyName "Álvarez de Petenno".
+
+:D101P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D101Oc2 ;
+	:residence :Oviedo .
+	
+:D101Oc2 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D101P179 a crm:E21_Person ;
+    :givenName "Elvira" ;
+    :familyName "Fernández";
+	:spouse :D101P457.
+
+:D101P225 a crm:E21_Person ;
+    :givenName "Menen" ;
+    :familyName "Fernández".
+
+:D101P309 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "González";
+	:occupation :D101Oc3.
+	
+:D101Oc3 a :Occupation;
+	crm:P1_is_identified_by "Escribano".
+
+:D101P337 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Juan";
+	:nickname "Mal Cabello".
+
+:D101P376 a crm:E21_Person ;
+    :givenName "Diego" ;
+    :familyName "Martínez";
+	:position_held :D101Oc4.
+	
+:D101Oc4 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en Oviedo";
+	:applies_to_jurisdiction :Oviedo.
+
+:D101P396 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Martínez";
+	:occupation :D101Oc5.
+	
+:D101Oc5 a :Occupation;
+	crm:P1_is_identified_by "Canónigo".
+
+:D101P423 a crm:E21_Person ;
+    :givenName "Aldonza" ;
+    :familyName "Morina".
+
+:D101P456 a crm:E21_Person ;
+    :givenName "Marcos" ;
+    :familyName "Peláez" ;
+	:residence :Báscones;
+    :father :D101P457 .
+
+:D101P457 a crm:E21_Person ;
+    :givenName "Marcos" ;
+    :familyName "Peláez";
+	:child :D101P456;
+	:spouse :D101P179.
+
+:D101P518 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Pérez de Vascones" .
+
+:D101P626 a crm:E21_Person ;
+    :givenName "Gonzalo" ;
+    :familyName "Rodríguez".
+
+:D101P679 a crm:E21_Person ;
+    :givenName "Aldonza" ;
+    :familyName "Suárez de Borondes".
+
+:Oviedo a crm:E53_Place ;
+    crm:P1_is_identified_by "Oviedo" .
+
+:Traspiñera_ería a crm:E53_Place ;
+    crm:P1_is_identified_by "Traspiñera, ería" .
+
+:Báscones a crm:E53_Place ;
+    crm:P1_is_identified_by "Báscones" .
+
+:D101 a crm:E96_Purchase;
+  crm:P2_has_type :Sale;
+  crm:P4_has_time-span :Within_1355-04-02;
+  crm:P70i_is_documented_in :AMSPO1675;
+  crm:P23_transferred_title_from :D101P456;
+  crm:P22_transferred_title_to :D101P154;
+  crm:P24_transferred_title_of :D101_Properties;
+  crm:P179_had_sales_price :D101payment;
+  crm:P14_carried_out_by :D101P72, :D101P337, :D101P396 ;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1355-04-02 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1355-04-02"^^xsd:date.
+  
+:Sale a crm:E55_Type;
+   crm:P1_is_identified_by "Sale" .
+        
+:AMSPO1675  a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1675" .
+    
+:D101_Properties a crm:E27_Site;
+	crm:P53_has_former_or_current_location :Traspiñera_ería.
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D101payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 32;
+	crm:P180_has_currency :Maravedi.
+	
+:Maravedi a crm:E98_Currency ;
+  crm:P1_is_identified_by "Maravedí" .
+

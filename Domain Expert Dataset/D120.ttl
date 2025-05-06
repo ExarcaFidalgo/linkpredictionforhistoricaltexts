@@ -1,0 +1,143 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D120P66 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Alfonso".
+
+:D120P93 a crm:E21_Person ;
+    :givenName "Diego" ;
+    :familyName "Álvarez de Borondes".
+
+:D120P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D120Oc1 .
+	
+:D120Oc1 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D120P244 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Fernández";
+	:father :D120PB1.
+	
+:D120PB1 a crm:E21_Person ;
+    :givenName "Rodrigo" ;
+    :familyName "Fernández";
+    :child :D120P244 .
+
+:D120P256 a crm:E21_Person ;
+    :givenName "Urraca" ;
+    :familyName "Fernández";
+    :child :D120P697 ;
+    :spouse :D120P320 .
+
+:D120P266 a crm:E21_Person ;
+    :givenName "Álvaro" ;
+    :familyName "García";
+	:position_held :D120Oc2.
+	
+:D120Oc2 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en la pobla de Grado";
+	:applies_to_jurisdiction :Grado.
+
+:D120P320 a crm:E21_Person ;
+    :givenName "Suer" ;
+    :familyName "González" ;
+    :child :D120P697 ;
+    :spouse :D120P256 .
+
+:D120P397 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Martínez";
+	:occupation :D120Oc3.
+	
+:D120Oc3 a :Occupation;
+	crm:P1_is_identified_by "Carpintero".
+
+:D120P431 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Nicolás".
+
+:D120P440 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "de Olivares".
+
+:D120P475 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Pérez".
+
+:D120P550 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Pérez de Oviedo".
+
+:D120P580 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Pérez de Nalió".
+
+:D120P597 a crm:E21_Person ;
+    :givenName "Rodrigo" ;
+    :familyName "Pérez de Valsendy".
+
+:D120P679 a crm:E21_Person ;
+    :givenName "Aldonza" ;
+    :familyName "Suárez de Borondes".
+
+:D120P697 a crm:E21_Person ;
+    :givenName "Diego" ;
+    :familyName "Suárez" ;
+	:residence :Vega_de_Rodrigo_Abril;
+    :father :D120P320 ;
+    :mother :D120P256 .
+
+:D120P741 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Yáñez";
+	:occupation :D120Oc4.
+	
+:D120Oc4 a :Occupation;
+	crm:P1_is_identified_by "Corredor".
+
+:Grado a crm:E53_Place ;
+    crm:P1_is_identified_by "Grado" .
+
+:Eres_ería a crm:E53_Place ;
+    crm:P1_is_identified_by "Eres, ería" .
+	
+:Vega_de_Rodrigo_Abril a crm:E53_Place ;
+  crm:P1_is_identified_by "Vega de Rodrigo Abril" .
+
+:D120 a crm:E96_Purchase;
+  crm:P2_has_type :Sale;
+  crm:P4_has_time-span :Within_1360-01-24;
+  crm:P70i_is_documented_in :AMSPO1687;
+  crm:P23_transferred_title_from :D120P697;
+  crm:P22_transferred_title_to :D120P154;
+  crm:P24_transferred_title_of :D120_Properties;
+  crm:P179_had_sales_price :D120payment;
+  crm:P14_carried_out_by :D120P244, :D120P397, :D120P431, :D120P741 ;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1360-01-24 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1360-01-24"^^xsd:date.
+  
+:Sale a crm:E55_Type;
+   crm:P1_is_identified_by "Sale" .
+        
+:AMSPO1687  a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1687" .
+    
+:D120_Properties a crm:E27_Site;
+	crm:P53_has_former_or_current_location :Eres_ería.
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D120payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 17;
+	crm:P180_has_currency :Maravedi.
+	
+:Maravedi a crm:E98_Currency ;
+  crm:P1_is_identified_by "Maravedí" .

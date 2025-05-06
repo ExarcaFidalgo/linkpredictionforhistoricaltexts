@@ -1,0 +1,123 @@
+@prefix : <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+:D100P54 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Alfonso de la Gascona".
+
+:D100P71 a crm:E21_Person ;
+    :givenName "Pedro" ;
+    :familyName "Alfonso";
+	:occupation :D100Oc1.
+	
+:D100Oc1 a :Occupation;
+	crm:P1_is_identified_by "Ferrador".
+
+:D100P154 a crm:E21_Person ;
+    :givenName "Alfonso" ;
+    :familyName "Fernández";
+	:occupation :D100Oc2 ;
+	:residence :Oviedo .
+	
+:D100Oc2 a :Occupation;
+	crm:P1_is_identified_by "Orfebre".
+
+:D100P179 a crm:E21_Person ;
+    :givenName "Elvira" ;
+    :familyName "Fernández";
+	:spouse :D100P457.
+
+:D100P309 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "González";
+	:occupation :D100Oc3.
+	
+:D100Oc3 a :Occupation;
+	crm:P1_is_identified_by "Escribano".
+
+:D100P376 a crm:E21_Person ;
+    :givenName "Diego" ;
+    :familyName "Martínez";
+	:position_held :D100Oc4.
+	
+:D100Oc4 a :PublicOffice;
+	crm:P1_is_identified_by "Notario público del rey en Oviedo";
+	:applies_to_jurisdiction :Oviedo.
+
+:D100P434 a crm:E21_Person ;
+    :givenName "Juan" ;
+    :familyName "Nicolás de Mercado".
+
+:D100P456 a crm:E21_Person ;
+    :givenName "Marcos" ;
+    :familyName "Peláez" ;
+	:residence :Báscones;
+    :father :D100P457 .
+
+:D100P457 a crm:E21_Person ;
+    :givenName "Marcos" ;
+    :familyName "Peláez";
+	:child :D100P456;
+	:spouse :D100P179;
+	:occupation :D100Oc5;
+	:work_location :Feligresía_de_San_Miguel_de_Báscones, :San_Pedro_Nora.
+	
+:D100Oc5 a :Occupation;
+	crm:P1_is_identified_by "Capellán".
+
+:D100P510 a crm:E21_Person ;
+    :givenName "Fernán" ;
+    :familyName "Pérez".
+
+:D100P679 a crm:E21_Person ;
+    :givenName "Aldonza" ;
+    :familyName "Suárez de Borondes".
+	
+:Oviedo a crm:E53_Place ;
+    crm:P1_is_identified_by "Oviedo" .
+
+:Traspiñera_ería a crm:E53_Place ;
+    crm:P1_is_identified_by "Traspiñera, ería" .
+	
+:Báscones a crm:E53_Place ;
+    crm:P1_is_identified_by "Báscones" .
+	
+:Feligresía_de_San_Miguel_de_Báscones a crm:E53_Place ;
+	crm:P1_is_identified_by "Feligresía de San Miguel de Báscones" .
+  
+:San_Pedro_Nora a crm:E53_Place ;
+	crm:P1_is_identified_by "San Pedro de Nora" .
+
+:D100 a crm:E96_Purchase;
+  crm:P2_has_type :Sale;
+  crm:P4_has_time-span :Within_1354-12-21;
+  crm:P70i_is_documented_in :AMSPO1672;
+  crm:P23_transferred_title_from :D100P456;
+  crm:P22_transferred_title_to :D100P154;
+  crm:P24_transferred_title_of :D100_Properties;
+  crm:P179_had_sales_price :D100payment;
+  crm:P14_carried_out_by :D100P54, :D100P71, :D100P434 ;
+  crm:P14.1_in_the_role_of :Witness.
+  
+:Within_1354-12-21 a crm:E52_Time-Span;
+   crm:P82_at_some_time_within "1354-12-21"^^xsd:date.
+  
+:Sale a crm:E55_Type;
+   crm:P1_is_identified_by "Sale" .
+        
+:AMSPO1672  a crm:E31_Document ;
+  crm:P1_is_identified_by "AMSPO, FSV, nº 1672" .
+    
+:D100_Properties a crm:E27_Site;
+	crm:P53_has_former_or_current_location :Traspiñera_ería.
+	
+:Witness a crm:E55_Type ;
+  crm:P1_is_identified_by "Witness" .
+  
+:D100payment a crm:E97_MonetaryAmount ;
+	crm:P90_has_value 22;
+	crm:P180_has_currency :Maravedi.
+	
+:Maravedi a crm:E98_Currency ;
+  crm:P1_is_identified_by "Maravedí" .
