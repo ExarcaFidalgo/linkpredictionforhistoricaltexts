@@ -1,3 +1,4 @@
+#Provides a map with the residences (blue) work locations (red) and jurisdictions of held positions (green) that we can geolocate by federated query to Wikidata.
 PREFIX wb: <https://medievalcharterskg.wikibase.cloud/entity/>
 PREFIX wbt: <https://medievalcharterskg.wikibase.cloud/prop/direct/>
 PREFIX wd: <http://www.wikidata.org/entity/>
@@ -22,17 +23,14 @@ SELECT ?personLabel ?entityLabel ?coord_raw ?label ?rgb   WHERE {
     BIND("Holds public office with jurisdiction in" AS ?label) 
   }
   
-  # Etiquetas locales
   SERVICE wikibase:label {
     bd:serviceParam wikibase:language "[AUTO_LANGUAGE],es,en" .
     ?person rdfs:label ?personLabel .
     ?entity rdfs:label ?entityLabel .
   }
   
-  # Extraemos solo el ID de Wikidata (QXXXX) de la URI completa
   BIND(IRI(CONCAT("http://www.wikidata.org/entity/", ?wdEntity)) AS ?wdItem)
   
-  # Consulta federada optimizada
   OPTIONAL {
     SERVICE <https://query.wikidata.org/sparql> {
       { SELECT ?wdItem ?coord_raw  WHERE {
