@@ -1,0 +1,9 @@
+PREFIX wd: <http://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <http://medievalcharterskg.wikibase.cloud/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Death>
+{
+   wdt:P3  [wd:Q35]  ;
+   wdt:P46  @<Activity> OR @<Acquisition> OR @<Purchase> OR @<Production>  ?; # Ends before the start of
+}
