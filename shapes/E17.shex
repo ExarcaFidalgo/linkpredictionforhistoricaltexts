@@ -1,0 +1,16 @@
+PREFIX wd: <http://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <http://medievalcharterskg.wikibase.cloud/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Purchase>
+{
+   wdt:P3  [wd:Q14]  ;
+   wdt:P5 @<Type> ;            # Has type
+   wdt:P6 @<TimeSpan> ;        # Has time span
+   wdt:P14 @<Person>  +;       # Carried out by (qualified by wdt:P13)
+   wdt:P17 @<Person>  +;       # Transferred title to
+   wdt:P18 @<Person>  +;       # Transferred title from
+   wdt:P15 @<Site>  ;          # Transferred title of
+   wdt:P28 @<Document> ;       # Is documented in
+   wdt:P43 @<MonetaryAmount> ; # Had sales price
+}
