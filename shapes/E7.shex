@@ -1,0 +1,10 @@
+PREFIX wd: <http://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <http://medievalcharterskg.wikibase.cloud/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<MonetaryAmount>
+{
+   wdt:P3  [wd:Q37]  ;
+   wdt:P44  @<Currency>  ?; # Has currency
+   wdt:P33  .  ?;           # Has value
+}
