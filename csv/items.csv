@@ -1,0 +1,57 @@
+Item Label EN;Item Label ES;Description;P3:wikibase-item;P4:wikibase-item
+Temporal Entity;Entidad Temporal;crm:E2_Temporal_Entity;;
+TimeSpan;Intervalo de Tiempo;crm:E52_Time-Span;;
+Place;Lugar;crm:E53_Place;;
+Dimension;Dimensión;crm:E54_Dimension;;
+Persistent Item;Elemento Persistente;crm:E77_Persistent_Item;;
+Period;Periodo;crm:E4_Period;;Q1
+Event;Evento;crm:E5_Event;;Q6
+Activity;Actividad;crm:E7_Activity;;Q7
+Acquisition;Adquisición;crm:E8_Acquisition;;Q8
+Move;Movimiento;crm:E9_Move;;Q8
+Transfer of Custody;Transferencia de Custodia;crm:E10_Transfer_of_Custody;;Q8
+Modification;Modificación;crm:E11_Modification;;Q8
+Production;Producción;crm:E12_Production;;Q12
+Purchase;Compra;crm:E96_Purchase;;Q9
+Actor;Actor;crm:E39_Actor;;Q5
+Person;Persona;crm:E21_Person;;Q15
+Group;Grupo;crm:E74_Group;;Q15
+Thing;Cosa;crm:E70_Thing;;Q5
+Human-Made Thing;Cosa Hecha por Humanos;crm:E71_Human-Made_Thing;;Q18
+Legal Object;Objeto Legal;crm:E72_Legal_Object;;Q18
+Conceptual Object;Objeto Conceptual;crm:E28_Conceptual_Object;;Q19
+Propositional Object;Objeto Proposicional;crm:E89_Propositional_Object;;Q21
+Physical Thing;Cosa Física;crm:E18_Physical_Thing;;Q20
+Physical Object;Objeto Físico;crm:E19_Physical_Object;;Q23
+Physical Human-Made Thing;Cosa Física Hecha por Humanos;crm:E24;;Q23
+Physical Feature;Característica Física;crm:E26_Physical_Feature;;Q23
+Site;Sitio;crm:E27_Site;;Q26
+Right;Derecho;crm:E30_Right;;Q22
+Information Object;Objeto de Información;crm:E73_Information_Object;;Q22
+Document;Documento;crm:E31_Document;;Q29
+Type;Tipo;crm:E55_Type;;Q21
+Beginning of Existence;Inicio de Existencia;crm:E63_Beginning_of_Existence;;Q7
+End of Existence;Fin de Existencia;crm:E64_End_of_Existenc;;Q7
+Birth;Nacimiento;crm:E67_Birth;;Q32
+Death;Muerte;crm:E69_Death;;Q33
+Measurement Unit;Unidad de Medida;crm:E58_Measurement_Unit;;Q31
+Monetary Amount;Cantidad Monetaria;crm:E97_Monetary_Amount;;Q4
+Currency;Moneda;crm:E98_Currency;;Q36
+Occupation;Ocupación;;;
+Kinship;Parentesco;;;
+Cousin;Primo/a;Kinship;Q40;
+Uncle;Tío;Kinship;Q40;
+Aunt;Tía;Kinship;Q40;
+Grandfather;Abuelo;Kinship;Q40;
+Grandmother;Abuela;Kinship;Q40;
+Grandchild;Nieto/a;Kinship;Q40;
+Nephew;Sobrino;Kinship;Q40;
+Niece;Sobrina;Kinship;Q40;
+Sibling-in-law;Cuñado/a;Kinship;Q40;
+Son-in-law;Yerno;Kinship;Q40;
+Father-in-law;Suegro;Kinship;Q40;
+Mother-in-law;Suegra;Kinship;Q40;
+Given name;Nombre de Pila;;;
+Family name;Apellido;;;
+The archive of a 14th century craftsman: the goldsmith Alfonso Fernández de Oviedo;El archivo de un artesano del siglo XIV: el orfebre Alfonso Fernández de Oviedo;Doctoral thesis of Jorge Felpeto Cueva;Q30;
+Public Office;Cargo público;;;
