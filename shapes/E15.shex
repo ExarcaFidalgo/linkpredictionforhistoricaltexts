@@ -1,0 +1,13 @@
+PREFIX wd: <http://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <http://medievalcharterskg.wikibase.cloud/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Activity>
+{
+   wdt:P3  [wd:Q8]  ;
+   wdt:P5 @<Type> ;       # Has type
+   wdt:P6 @<TimeSpan> ;   # Has time span
+   wdt:P14 @<Person>  +;  # Carried out by (qualified by wdt:P13)
+   wdt:P15 @<Site>  ?;    # Was motivated by
+   wdt:P28 @<Document> ;  # Is documented in
+}
