@@ -1,0 +1,25 @@
+PREFIX wd: <http://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <http://medievalcharterskg.wikibase.cloud/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Person>
+{
+   wdt:P3  [wd:Q16]  ;
+   wdt:P49  @<GivenName>  ?;    # Given name
+   wdt:P50  @<FamilyName>  ?;   # Family name
+   wdt:P52  @<Occupation>  *;   # Occupation
+   wdt:P55  @<Place>  ?;        # Residence
+   wdt:P56  @<Person>  ?;       # Spouse
+   wdt:P59  @<Person>  *;       # Child
+   wdt:P57  @<Person>  ?;       # Father
+   wdt:P65  @<PublicOffice>  *; # Position held
+   wdt:P35  @<Death>  ?;        # Died in
+   wdt:P58  @<Person>  ?;       # Mother
+   wdt:P60  @<Person>  *;       # Sibling
+   wdt:P54  @<Person>  ?;       # Employer
+   wdt:P51  xsd:string  ?;      # Nickname
+   wdt:P53  @<Place>  ?;        # Work location
+   wdt:P61  @<Person>  *;       # Relative (qualified by wdt:P62 -kinship to subject)
+   wdt:P67  xsd:string  ?;      # Title
+   wdt:P66  xsd:string  ?;      # Regnal ordinal
+}
