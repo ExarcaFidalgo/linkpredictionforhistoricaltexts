@@ -1,0 +1,11 @@
+PREFIX wd: <http://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <http://medievalcharterskg.wikibase.cloud/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<PublicOffice>
+{
+   wdt:P3  [wd:Q56]  ;
+   wdt:P1 xsd:string  +; # ID
+   wdt:P64  @<Place>  *; # Applies to jurisdiction
+   wdt:P69 xsd:string +; # Native label
+}
