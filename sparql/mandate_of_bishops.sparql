@@ -1,0 +1,37 @@
+#Gets the start and end times of the mandate of our bishops of Oviedo by federated query to wikidata
+PREFIX wb: <https://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wbt: <https://medievalcharterskg.wikibase.cloud/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+SELECT ?personLabel ?starttime ?endtime   WHERE {
+  {
+    ?person wbt:P52 wb:Q102; #Occupation bishop
+            wbt:P2 ?wdEntity.
+  } UNION {
+    ?person wbt:P65 wb:Q83; #position held: Bishop of Oviedo
+            wbt:P2 ?wdEntity. 
+  }
+  
+  # Etiquetas locales
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "[AUTO_LANGUAGE],es,en" .
+    ?person rdfs:label ?personLabel .
+  }
+  
+  # Extraemos solo el ID de Wikidata (QXXXX) de la URI completa
+  BIND(IRI(CONCAT("http://www.wikidata.org/entity/", ?wdEntity)) AS ?wdItem)
+  
+  # Consulta federada optimizada
+  OPTIONAL {
+    SERVICE <https://query.wikidata.org/sparql> {
+      { SELECT ?wdItem ?starttime ?endtime  WHERE {
+        ?wdItem p:P39 ?statement  .
+        ?statement ps:P39 wd:Q50220100.
+        ?statement pq:P580 ?starttime.
+        ?statement pq:P582 ?endtime.
+      } }
+    }
+  }
+  
+}
