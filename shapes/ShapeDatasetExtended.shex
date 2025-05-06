@@ -1,0 +1,303 @@
+PREFIX ex: <http://example.org/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX weso-s: <http://weso.es/shapes/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX brick: <https://brickschema.org/schema/Brick#>
+PREFIX csvw: <http://www.w3.org/ns/csvw#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcmitype: <http://purl.org/dc/dcmitype/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dcam: <http://purl.org/dc/dcam/>
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX odrl: <http://www.w3.org/ns/odrl/2/>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX schema: <https://schema.org/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX ssn: <http://www.w3.org/ns/ssn/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX void: <http://rdfs.org/ns/void#>
+PREFIX wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace/>
+
+weso-s:E69_Death
+{
+   rdf:type  [crm:E69_Death]  ;                                # 100.0 %
+   crm:P183_ends_before_the_start_of  IRI                      # 100.0 %
+            # 86.66666666666667 % obj: @weso-s:E96_Purchase. Cardinality: {1}
+            # 13.333333333333334 % obj: @weso-s:E8_Acquisition. Cardinality: {1}
+}
+
+
+weso-s:E21_Person
+{
+   rdf:type  [crm:E21_Person]  ;                               # 100.0 %
+   ex:givenName  xsd:string  ?;
+            # 99.7195737521032 % obj: xsd:string. Cardinality: {1}
+   ex:familyName  xsd:string  ?;
+            # 97.25182277061133 % obj: xsd:string. Cardinality: {1}
+   ex:occupation  @weso-s:Occupation  *;
+            # 27.65002804262479 % obj: @weso-s:Occupation. Cardinality: +
+            # 27.481772293886706 % obj: @weso-s:Occupation. Cardinality: {1}
+            # 0.16825574873808188 % obj: @weso-s:Occupation. Cardinality: {2}
+   ex:residence  @weso-s:E53_Place  ?;
+            # 18.452047111609645 % obj: @weso-s:E53_Place. Cardinality: {1}
+   ex:spouse  @weso-s:E21_Person  ?;
+            # 16.264722378014582 % obj: @weso-s:E21_Person. Cardinality: {1}
+   ex:child  @weso-s:E21_Person  *;
+            # 14.133482893998877 % obj: @weso-s:E21_Person. Cardinality: +
+            # 12.731351654514864 % obj: @weso-s:E21_Person. Cardinality: {1}
+            # 1.0095344924284912 % obj: @weso-s:E21_Person. Cardinality: {2}
+            # 0.3925967470555244 % obj: @weso-s:E21_Person. Cardinality: {3}
+   ex:father  @weso-s:E21_Person  ?;
+            # 9.871003925967472 % obj: @weso-s:E21_Person. Cardinality: {1}
+   ex:position_held  @weso-s:PublicOffice  *;
+            # 8.468872686483454 % obj: @weso-s:PublicOffice. Cardinality: +
+            # 8.244531688166013 % obj: @weso-s:PublicOffice. Cardinality: {1}
+            # 0.2243409983174425 % obj: @weso-s:PublicOffice. Cardinality: {2}
+   crm:P100_died_in  @weso-s:E69_Death  ?;
+            # 6.730229949523276 % obj: @weso-s:E69_Death. Cardinality: {1}
+   ex:mother  @weso-s:E21_Person  ?;
+            # 6.001121704991587 % obj: @weso-s:E21_Person. Cardinality: {1}
+   ex:sibling  @weso-s:E21_Person  *;
+            # 5.047672462142456 % obj: @weso-s:E21_Person. Cardinality: +
+            # 4.374649467190129 % obj: @weso-s:E21_Person. Cardinality: {1}
+            # 0.6730229949523275 % obj: @weso-s:E21_Person. Cardinality: {2}
+   ex:employer  @weso-s:E21_Person  ?;
+            # 1.5703869882220975 % obj: @weso-s:E21_Person. Cardinality: {1}
+   ex:nickname  xsd:string  ?;
+            # 1.5143017386427369 % obj: xsd:string. Cardinality: {1}
+   ex:work_location  @weso-s:E53_Place  ?;
+            # 1.5143017386427369 % obj: @weso-s:E53_Place. Cardinality: {1}
+   ex:relative_cousin  @weso-s:E21_Person  *;
+            # 1.4021312394840157 % obj: @weso-s:E21_Person. Cardinality: +
+            # 0.8412787436904094 % obj: @weso-s:E21_Person. Cardinality: {1}
+            # 0.3925967470555244 % obj: @weso-s:E21_Person. Cardinality: {2}
+            # 0.16825574873808188 % obj: @weso-s:E21_Person. Cardinality: {3}
+   ex:relative_uncle  @weso-s:E21_Person  *;
+            # 0.9534492428491307 % obj: @weso-s:E21_Person. Cardinality: +
+            # 0.7851934941110488 % obj: @weso-s:E21_Person. Cardinality: {1}
+            # 0.16825574873808188 % obj: @weso-s:E21_Person. Cardinality: {2}
+   ex:relative_nephew  @weso-s:E21_Person  *;
+            # 0.9534492428491307 % obj: @weso-s:E21_Person. Cardinality: +
+            # 0.8412787436904094 % obj: @weso-s:E21_Person. Cardinality: {1}
+            # 0.056085249579360626 % obj: @weso-s:E21_Person. Cardinality: {3}
+            # 0.056085249579360626 % obj: @weso-s:E21_Person. Cardinality: {2}
+   ex:relative_grandchild  @weso-s:E21_Person  *;
+            # 0.8412787436904094 % obj: @weso-s:E21_Person. Cardinality: +
+            # 0.616937745372967 % obj: @weso-s:E21_Person. Cardinality: {1}
+            # 0.2243409983174425 % obj: @weso-s:E21_Person. Cardinality: {2}
+   ex:relative_grandfather  @weso-s:E21_Person  ?;
+            # 0.6730229949523275 % obj: @weso-s:E21_Person. Cardinality: {1}
+   ex:title  xsd:string  ?;
+            # 0.616937745372967 % obj: xsd:string. Cardinality: {1}
+   ex:relative_grandmother  @weso-s:E21_Person  ?;
+            # 0.3925967470555244 % obj: @weso-s:E21_Person. Cardinality: {1}
+   ex:regnalOrdinal  xsd:string  ?;
+            # 0.33651149747616377 % obj: xsd:string. Cardinality: {1}
+   ex:relative_sibling-in-law  @weso-s:E21_Person  ?;
+            # 0.2243409983174425 % obj: @weso-s:E21_Person. Cardinality: {1}
+   ex:relative_father-in-law  @weso-s:E21_Person  ?;
+            # 0.11217049915872125 % obj: @weso-s:E21_Person. Cardinality: {1}
+   ex:relative_son-in-law  @weso-s:E21_Person  ?
+            # 0.11217049915872125 % obj: @weso-s:E21_Person. Cardinality: {1}
+}
+
+
+weso-s:E96_Purchase
+{
+   rdf:type  [crm:E96_Purchase]  ;                             # 100.0 %
+   crm:P70i_is_documented_in  @weso-s:E31_Document  ;          # 100.0 %
+   crm:P2_has_type  @weso-s:E55_Type  ;                        # 100.0 %
+   crm:P4_has_time-span  @weso-s:E52_Time-Span  ;              # 100.0 %
+   crm:P179_had_sales_price  @weso-s:E97_MonetaryAmount  +;          # 100.0 %
+            # 95.83333333333334 % obj: @weso-s:E97_MonetaryAmount. Cardinality: {1}
+            # 4.166666666666666 % obj: @weso-s:E97_MonetaryAmount. Cardinality: {2}
+   crm:P14_carried_out_by  @weso-s:E21_Person  *;
+            # 99.16666666666667 % obj: @weso-s:E21_Person. Cardinality: +
+            # 37.5 % obj: @weso-s:E21_Person. Cardinality: {4}
+            # 30.0 % obj: @weso-s:E21_Person. Cardinality: {5}
+            # 20.0 % obj: @weso-s:E21_Person. Cardinality: {3}
+            # 7.5 % obj: @weso-s:E21_Person. Cardinality: {6}
+            # 1.6666666666666667 % obj: @weso-s:E21_Person. Cardinality: {8}
+            # 1.6666666666666667 % obj: @weso-s:E21_Person. Cardinality: {7}
+            # 0.8333333333333334 % obj: @weso-s:E21_Person. Cardinality: {2}
+   crm:P23_transferred_title_from  @weso-s:E21_Person  *;
+            # 99.16666666666667 % obj: @weso-s:E21_Person. Cardinality: +
+            # 54.166666666666664 % obj: @weso-s:E21_Person. Cardinality: {1}
+            # 40.0 % obj: @weso-s:E21_Person. Cardinality: {2}
+            # 2.5 % obj: @weso-s:E21_Person. Cardinality: {3}
+            # 1.6666666666666667 % obj: @weso-s:E21_Person. Cardinality: {4}
+            # 0.8333333333333334 % obj: @weso-s:E21_Person. Cardinality: {6}
+   crm:P22_transferred_title_to  @weso-s:E21_Person  *;
+            # 99.16666666666667 % obj: @weso-s:E21_Person. Cardinality: +
+            # 59.166666666666664 % obj: @weso-s:E21_Person. Cardinality: {2}
+            # 37.5 % obj: @weso-s:E21_Person. Cardinality: {1}
+            # 2.5 % obj: @weso-s:E21_Person. Cardinality: {3}
+            # 3.3333333333333335 % obj: @weso-s:E74_Group. Cardinality: {1}
+   crm:P14.1_in_the_role_of  @weso-s:E55_Type  ?;
+            # 99.16666666666667 % obj: @weso-s:E55_Type. Cardinality: {1}
+   crm:P24_transferred_title_of  @weso-s:E27_Site  ?
+            # 99.16666666666667 % obj: @weso-s:E27_Site. Cardinality: {1}
+}
+
+
+weso-s:Occupation
+{
+   rdf:type  [ex:Occupation]  ;                                # 100.0 %
+   crm:P1_is_identified_by  xsd:string                         # 100.0 %
+}
+
+
+weso-s:E53_Place
+{
+   rdf:type  [crm:E53_Place]  ;                                # 100.0 %
+   crm:P1_is_identified_by  xsd:string  +                      # 100.0 %
+            # 73.38709677419355 % obj: xsd:string. Cardinality: {1}
+            # 20.161290322580644 % obj: xsd:string. Cardinality: {2}
+            # 4.032258064516129 % obj: xsd:string. Cardinality: {3}
+            # 2.4193548387096775 % obj: xsd:string. Cardinality: {4}
+}
+
+
+weso-s:E31_Document
+{
+   rdf:type  [crm:E31_Document]  ;                             # 100.0 %
+   crm:P1_is_identified_by  xsd:string                         # 100.0 %
+}
+
+
+weso-s:E27_Site
+{
+   rdf:type  [crm:E27_Site]  ;                                 # 100.0 %
+   crm:P53_has_former_or_current_location  @weso-s:E53_Place  +          # 100.0 %
+            # 59.68992248062015 % obj: @weso-s:E53_Place. Cardinality: {1}
+            # 26.356589147286826 % obj: @weso-s:E53_Place. Cardinality: {2}
+            # 9.30232558139535 % obj: @weso-s:E53_Place. Cardinality: {3}
+            # 2.3255813953488373 % obj: @weso-s:E53_Place. Cardinality: {4}
+            # 1.550387596899225 % obj: @weso-s:E53_Place. Cardinality: {5}
+            # 0.7751937984496124 % obj: @weso-s:E53_Place. Cardinality: {6}
+}
+
+
+weso-s:E97_MonetaryAmount
+{
+   rdf:type  [crm:E97_MonetaryAmount]  ;                       # 100.0 %
+   crm:P180_has_currency  @weso-s:E98_Currency  ?;
+            # 99.2 % obj: @weso-s:E98_Currency. Cardinality: {1}
+   crm:P90_has_value  xsd:integer  ?;
+            # 97.6 % obj: xsd:integer. Cardinality: {1}
+   crm:P90_has_value  xsd:decimal  ?
+            # 1.6 % obj: xsd:decimal. Cardinality: {1}
+}
+
+
+weso-s:E52_Time-Span
+{
+   rdf:type  [crm:E52_Time-Span]  ;                            # 100.0 %
+   crm:P82_at_some_time_within  xsd:date                       # 100.0 %
+}
+
+
+weso-s:PublicOffice
+{
+   rdf:type  [ex:PublicOffice]  ;                              # 100.0 %
+   crm:P1_is_identified_by  xsd:string  ;                      # 100.0 %
+   ex:applies_to_jurisdiction  @weso-s:E53_Place  *
+            # 99.35483870967742 % obj: @weso-s:E53_Place. Cardinality: +
+            # 90.32258064516128 % obj: @weso-s:E53_Place. Cardinality: {1}
+            # 6.451612903225806 % obj: @weso-s:E53_Place. Cardinality: {2}
+            # 2.5806451612903225 % obj: @weso-s:E53_Place. Cardinality: {9}
+}
+
+
+weso-s:E8_Acquisition
+{
+   crm:P14_carried_out_by  @weso-s:E21_Person  +;              # 100.0 %
+            # 33.33333333333333 % obj: @weso-s:E21_Person. Cardinality: {4}
+            # 22.22222222222222 % obj: @weso-s:E21_Person. Cardinality: {6}
+            # 22.22222222222222 % obj: @weso-s:E21_Person. Cardinality: {5}
+            # 11.11111111111111 % obj: @weso-s:E21_Person. Cardinality: {8}
+            # 11.11111111111111 % obj: @weso-s:E21_Person. Cardinality: {3}
+   rdf:type  [crm:E8_Acquisition]  ;                           # 100.0 %
+   crm:P24_transferred_title_of  @weso-s:E27_Site  ;           # 100.0 %
+   crm:P2_has_type  @weso-s:E55_Type  ;                        # 100.0 %
+   crm:P23_transferred_title_from  @weso-s:E21_Person  +;          # 100.0 %
+            # 55.55555555555556 % obj: @weso-s:E21_Person. Cardinality: {2}
+            # 44.44444444444444 % obj: @weso-s:E21_Person. Cardinality: {1}
+   crm:P4_has_time-span  @weso-s:E52_Time-Span  ;              # 100.0 %
+   crm:P70i_is_documented_in  @weso-s:E31_Document  ;          # 100.0 %
+   crm:P22_transferred_title_to  @weso-s:E21_Person  +;          # 100.0 %
+            # 55.55555555555556 % obj: @weso-s:E21_Person. Cardinality: {1}
+            # 44.44444444444444 % obj: @weso-s:E21_Person. Cardinality: {2}
+   crm:P14.1_in_the_role_of  @weso-s:E55_Type                  # 100.0 %
+}
+
+
+weso-s:E98_Currency
+{
+   rdf:type  [crm:E98_Currency]  ;                             # 100.0 %
+   crm:P1_is_identified_by  xsd:string  +                      # 100.0 %
+            # 85.71428571428571 % obj: xsd:string. Cardinality: {1}
+            # 14.285714285714285 % obj: xsd:string. Cardinality: {2}
+}
+
+
+weso-s:E55_Type
+{
+   rdf:type  [crm:E55_Type]  ;                                 # 100.0 %
+   crm:P1_is_identified_by  xsd:string                         # 100.0 %
+}
+
+
+weso-s:E74_Group
+{
+   rdf:type  [crm:E74_Group]  ;                                # 100.0 %
+   crm:P1_is_identified_by  xsd:string                         # 100.0 %
+}
+
+
+weso-s:E12_Production
+{
+   crm:P14_carried_out_byPQ14.1-Judge  @weso-s:E21_Person  ;          # 100.0 %
+   crm:P4_has_time-span  @weso-s:E52_Time-Span  ;              # 100.0 %
+   crm:P14_carried_out_by  @weso-s:E21_Person  {4};            # 100.0 %
+   crm:P14_carried_out_byPQ14.1-Notary  @weso-s:E21_Person  ;          # 100.0 %
+   crm:P2_has_type  @weso-s:E55_Type  ;                        # 100.0 %
+   crm:P14.1_in_the_role_of  @weso-s:E55_Type  ;               # 100.0 %
+   rdf:type  [crm:E12_Production]  ;                           # 100.0 %
+   crm:P70i_is_documented_in  @weso-s:E31_Document  ;          # 100.0 %
+   crm:P108_has_produced  @weso-s:E31_Document                 # 100.0 %
+}
+
+
+weso-s:E7_Activity
+{
+   crm:P2_has_type  @weso-s:E55_Type  ;                        # 100.0 %
+   crm:P4_has_time-span  @weso-s:E52_Time-Span  ;              # 100.0 %
+   crm:P14_carried_out_by  @weso-s:E21_Person  +;              # 100.0 %
+            # 50.0 % obj: @weso-s:E21_Person. Cardinality: {4}
+            # 50.0 % obj: @weso-s:E21_Person. Cardinality: {5}
+   crm:P14.1_in_the_role_of  @weso-s:E55_Type  ;               # 100.0 %
+   rdf:type  [crm:E7_Activity]  ;                              # 100.0 %
+   crm:P70i_is_documented_in  @weso-s:E31_Document  ;          # 100.0 %
+   crm:P14_carried_out_byPQ14.1-PartyB  @weso-s:E21_Person  ?;
+            # 50.0 % obj: @weso-s:E21_Person. Cardinality: {1}
+   crm:P14_carried_out_byPQ14.1-PartyA  @weso-s:E21_Person  *;
+            # 50.0 % obj: @weso-s:E21_Person. Cardinality: {2}
+   crm:P17_was_motivated_by  @weso-s:E27_Site  ?
+            # 50.0 % obj: @weso-s:E27_Site. Cardinality: {1}
+}
+
+
