@@ -1,0 +1,9 @@
+PREFIX wd: <http://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <http://medievalcharterskg.wikibase.cloud/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Type>
+{
+   wdt:P3  [wd:Q31]  ;
+   wdt:P1  xsd:string ; # ID
+}
