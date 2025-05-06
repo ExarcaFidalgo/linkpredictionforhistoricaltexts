@@ -1,0 +1,9 @@
+PREFIX wd: <http://medievalcharterskg.wikibase.cloud/entity/>
+PREFIX wdt: <http://medievalcharterskg.wikibase.cloud/prop/direct/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<Site>
+{
+   wdt:P3  [wd:Q27]  ;
+   wdt:P27 @<Place> + ; # Former or current location
+}
