@@ -5,6 +5,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <Person>
 {
    wdt:P3  [wd:Q16]  ;
+   wdt:P1 xsd:string + ;        # ID
+   wdt:P2 . ? ;                 # Wikidata ID
    wdt:P49  @<GivenName>  ?;    # Given name
    wdt:P50  @<FamilyName>  ?;   # Family name
    wdt:P52  @<Occupation>  *;   # Occupation
