@@ -1,4 +1,4 @@
-#Gets the start and end times of the mandate of our bishops of Oviedo by federated query to wikidata
+#Gets the start and end times of the incumbency of our bishops of Oviedo by federated query to wikidata
 PREFIX wb: <https://medievalcharterskg.wikibase.cloud/entity/>
 PREFIX wbt: <https://medievalcharterskg.wikibase.cloud/prop/direct/>
 PREFIX wd: <http://www.wikidata.org/entity/>
